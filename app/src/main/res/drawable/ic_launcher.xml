@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Deep navy rounded square -->
+    <path
+        android:fillColor="#1E2A4A"
+        android:pathData="M12,12 h84 v84 h-84 z" />
+    <!-- Gold sun disc -->
+    <path
+        android:fillColor="#C9A227"
+        android:pathData="M54,30 m-16,0 a16,16 0 1,1 -32,0 a16,16 0 1,1 32,0" />
+    <!-- Horizon line -->
+    <path
+        android:fillColor="#F7F4EC"
+        android:pathData="M22,62 h64 v4 h-64 z" />
+    <!-- Candle flame accent -->
+    <path
+        android:fillColor="#B45309"
+        android:pathData="M54,72 c-3,4 -3,7 0,10 c3,-3 3,-6 0,-10 z" />
+</vector>

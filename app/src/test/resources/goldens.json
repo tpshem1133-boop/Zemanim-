@@ -1,0 +1,3039 @@
+[
+ {
+  "label": "Hoshana Rabba Fri NY",
+  "y": 2026,
+  "m": 10,
+  "d": 2,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5787,
+   "m": 7,
+   "d": 21
+  },
+  "wd": 5,
+  "parsha": {
+   "names": [
+    "Shemini Atzeres"
+   ],
+   "chag": true
+  },
+  "events": [
+   {
+    "name": "Hoshana Rabba",
+    "type": "chm"
+   }
+  ],
+  "zmanim": {
+   "netz": 1790938395663.6426,
+   "shkia": 1790980611939.656,
+   "alos161": 1790933545605.3755,
+   "alos18": 1790932934132.2603,
+   "alos198": 1790932351354.7131,
+   "alos72": 1790934075663.6426,
+   "misheyakir115": 1790935014442.2966,
+   "misheyakir102": 1790935427458.4097,
+   "tzeis85": 1790983041063.8418,
+   "tzeis7083": 1790982592176.743,
+   "tzeis161": 1790985460996.174,
+   "tzeis72": 1790984931939.656,
+   "tzeis50": 1790983611939.656,
+   "tzeis42": 1790983131939.656,
+   "beinHaShmashosRT": 1790984833567.256,
+   "sofShemaGRA": 1790948949732.6426,
+   "sofTefillaGRA": 1790952467755.6426,
+   "chatzos": 1790959503801.6426,
+   "minchaGedola": 1790961262812.6426,
+   "minchaKetana": 1790971816881.6426,
+   "plagHaMincha": 1790976214410.6426,
+   "sofAchilasChametz": 1790952467755.6426,
+   "sofBiurChametz": 1790955985778.6426,
+   "sofShemaMGA": 1790946524451.3755,
+   "sofTefillaMGA": 1790950850733.3755,
+   "sofShemaMGA198": 1790945901367.7131,
+   "sofTefillaMGA198": 1790950418038.7131,
+   "minchaGedolaMGA": 1790961666438.3755,
+   "minchaKetanaMGA": 1790974645284.3755,
+   "plagHaMinchaMGA": 1790980053136.3755,
+   "chatzosLaila": 1791002734464.8887,
+   "beinHaShmashos": 1790981782176.743,
+   "shaahZmanisGRA": 3518023,
+   "shaahZmanisMGA": 4326282,
+   "havdalah": 1790983041063.8418,
+   "tzeis": 1790983041063.8418,
+   "candleLighting": 1790979531939.656
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Bechoros",
+   "daf": 14
+  },
+  "molad": null,
+  "levana": null,
+  "candle": 1790979531939.656,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Shabbos Shemini Atzeres NY",
+  "y": 2026,
+  "m": 10,
+  "d": 3,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5787,
+   "m": 7,
+   "d": 22
+  },
+  "wd": 6,
+  "parsha": {
+   "names": [
+    "Shemini Atzeres"
+   ],
+   "chag": true
+  },
+  "events": [
+   {
+    "name": "Shemini Atzeres",
+    "type": "yt"
+   }
+  ],
+  "zmanim": {
+   "netz": 1791024856990.1216,
+   "shkia": 1791066913029.8325,
+   "alos161": 1791020008833.039,
+   "alos18": 1791019398381.2842,
+   "alos198": 1791018816768.8535,
+   "alos72": 1791020536990.1216,
+   "misheyakir115": 1791021475984.6335,
+   "misheyakir102": 1791021888708.9832,
+   "tzeis85": 1791069342593.5352,
+   "tzeis7083": 1791068893813.7556,
+   "tzeis161": 1791071760389.3264,
+   "tzeis72": 1791071233029.8325,
+   "tzeis50": 1791069913029.8325,
+   "tzeis42": 1791069433029.8325,
+   "beinHaShmashosRT": 1791071118632.6326,
+   "sofShemaGRA": 1791035370997.1216,
+   "sofTefillaGRA": 1791038875666.1216,
+   "chatzos": 1791045885004.1216,
+   "minchaGedola": 1791047637338.1216,
+   "minchaKetana": 1791058151345.1216,
+   "plagHaMincha": 1791062532181.1216,
+   "sofAchilasChametz": 1791038875666.1216,
+   "sofBiurChametz": 1791042380335.1216,
+   "sofShemaMGA": 1791032946720.039,
+   "sofTefillaMGA": 1791037259349.039,
+   "sofShemaMGA198": 1791032324979.8535,
+   "sofTefillaMGA198": 1791036827716.8535,
+   "minchaGedolaMGA": 1791048040921.039,
+   "minchaKetanaMGA": 1791060978808.039,
+   "plagHaMinchaMGA": 1791066369594.039,
+   "chatzosLaila": 1791089115798.2131,
+   "beinHaShmashos": 1791068083813.7556,
+   "shaahZmanisGRA": 3504669,
+   "shaahZmanisMGA": 4312629,
+   "havdalah": 1791069342593.5352,
+   "tzeis": 1791069342593.5352,
+   "candleLighting": 1791065833029.8325
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Bechoros",
+   "daf": 15
+  },
+  "molad": null,
+  "levana": null,
+  "candle": null,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Simchas Torah diaspora NY",
+  "y": 2026,
+  "m": 10,
+  "d": 4,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5787,
+   "m": 7,
+   "d": 23
+  },
+  "wd": 0,
+  "parsha": {
+   "names": [
+    "Bereshit"
+   ],
+   "chag": false
+  },
+  "events": [
+   {
+    "name": "Simchas Torah",
+    "type": "yt"
+   }
+  ],
+  "zmanim": {
+   "netz": 1791111318566.5938,
+   "shkia": 1791153214538.605,
+   "alos161": 1791106471903.317,
+   "alos18": 1791105862411.409,
+   "alos198": 1791105281901.2942,
+   "alos72": 1791106998566.5938,
+   "misheyakir115": 1791107937503.6978,
+   "misheyakir102": 1791108349971.4465,
+   "tzeis85": 1791155644734.5696,
+   "tzeis7083": 1791155196025.8157,
+   "tzeis161": 1791158060606.5508,
+   "tzeis72": 1791157534538.605,
+   "tzeis50": 1791156214538.605,
+   "tzeis42": 1791155734538.605,
+   "beinHaShmashosRT": 1791157404135.805,
+   "sofShemaGRA": 1791121792559.5938,
+   "sofTefillaGRA": 1791125283890.5938,
+   "chatzos": 1791132266552.5938,
+   "minchaGedola": 1791134012217.5938,
+   "minchaKetana": 1791144486210.5938,
+   "plagHaMincha": 1791148850374.5938,
+   "sofAchilasChametz": 1791125283890.5938,
+   "sofBiurChametz": 1791128775221.5938,
+   "sofShemaMGA": 1791119369077.317,
+   "sofTefillaMGA": 1791123668135.317,
+   "sofShemaMGA198": 1791118748628.2942,
+   "sofTefillaMGA198": 1791123237537.2942,
+   "minchaGedolaMGA": 1791134415780.317,
+   "minchaKetanaMGA": 1791147312954.317,
+   "plagHaMinchaMGA": 1791152686776.317,
+   "chatzosLaila": 1791175497470.3647,
+   "beinHaShmashos": 1791154386025.8157,
+   "shaahZmanisGRA": 3491331,
+   "shaahZmanisMGA": 4299058,
+   "havdalah": 1791155644734.5696,
+   "tzeis": 1791155644734.5696,
+   "candleLighting": 1791152134538.605
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Bechoros",
+   "daf": 16
+  },
+  "molad": null,
+  "levana": null,
+  "candle": null,
+  "havdalah": 1791155644734.5696,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Yom Kippur 5787 NY",
+  "y": 2026,
+  "m": 9,
+  "d": 21,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5787,
+   "m": 7,
+   "d": 10
+  },
+  "wd": 1,
+  "parsha": {
+   "names": [
+    "Sukkos"
+   ],
+   "chag": true
+  },
+  "events": [
+   {
+    "name": "Yom Kippur",
+    "type": "fast-yt"
+   }
+  ],
+  "zmanim": {
+   "netz": 1789987334693.154,
+   "shkia": 1790031318808.0806,
+   "alos161": 1789982435874.6267,
+   "alos18": 1789981808829.566,
+   "alos198": 1789981208768.077,
+   "alos72": 1789983014693.154,
+   "misheyakir115": 1789983932578.8645,
+   "misheyakir102": 1789984351222.8987,
+   "tzeis85": 1790033756107.7449,
+   "tzeis7083": 1790033303566.7644,
+   "tzeis161": 1790036106398.853,
+   "tzeis72": 1790035638808.0806,
+   "tzeis50": 1790034318808.0806,
+   "tzeis42": 1790033838808.0806,
+   "beinHaShmashosRT": 1790035717218.4805,
+   "sofShemaGRA": 1789998330719.154,
+   "sofTefillaGRA": 1790001996061.154,
+   "chatzos": 1790009326745.154,
+   "minchaGedola": 1790011159416.154,
+   "minchaKetana": 1790022155442.154,
+   "plagHaMincha": 1790026737119.154,
+   "sofAchilasChametz": 1790001996061.154,
+   "sofBiurChametz": 1790005661403.154,
+   "sofShemaMGA": 1789995853503.6267,
+   "sofTefillaMGA": 1790000326046.6267,
+   "sofShemaMGA198": 1789995238580.077,
+   "sofTefillaMGA198": 1789999915184.077,
+   "minchaGedolaMGA": 1790011507403.6267,
+   "minchaKetanaMGA": 1790024925032.6267,
+   "plagHaMinchaMGA": 1790030515711.6267,
+   "chatzosLaila": 1790052556376.3608,
+   "beinHaShmashos": 1790032493566.7644,
+   "shaahZmanisGRA": 3665342,
+   "shaahZmanisMGA": 4472543,
+   "havdalah": 1790033756107.7449,
+   "tzeis": 1790033756107.7449,
+   "candleLighting": 1790030238808.0806
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Bechoros",
+   "daf": 3
+  },
+  "molad": null,
+  "levana": {
+   "fromMs": 1789411086933.3333,
+   "toMs": 1790427607599.3333
+  },
+  "candle": null,
+  "havdalah": 1790033756107.7449,
+  "fastBegin": 1789943940361.1118,
+  "fastEnd": 1790033756107.7449,
+  "chametz": null
+ },
+ {
+  "label": "Rosh Hashana day 1 NY",
+  "y": 2026,
+  "m": 9,
+  "d": 12,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5787,
+   "m": 7,
+   "d": 1
+  },
+  "wd": 6,
+  "parsha": {
+   "names": [
+    "Rosh Hashana"
+   ],
+   "chag": true
+  },
+  "events": [
+   {
+    "name": "Rosh Hashana",
+    "type": "yt"
+   },
+   {
+    "name": "Rosh Chodesh Tishri",
+    "type": "rc"
+   }
+  ],
+  "zmanim": {
+   "netz": 1789209205702.4883,
+   "shkia": 1789254631202.7642,
+   "alos161": 1789204227352.1772,
+   "alos18": 1789203581031.9692,
+   "alos198": 1789202959980.8293,
+   "alos72": 1789204885702.4883,
+   "misheyakir115": 1789205760556.9148,
+   "misheyakir102": 1789206187283.1865,
+   "tzeis85": 1789257093277.4937,
+   "tzeis7083": 1789256634251.1995,
+   "tzeis161": 1789259492826.1326,
+   "tzeis72": 1789258951202.7642,
+   "tzeis50": 1789257631202.7642,
+   "tzeis42": 1789257151202.7642,
+   "beinHaShmashosRT": 1789259173752.3643,
+   "sofShemaGRA": 1789220562076.4883,
+   "sofTefillaGRA": 1789224347534.4883,
+   "chatzos": 1789231918450.4883,
+   "minchaGedola": 1789233811179.4883,
+   "minchaKetana": 1789245167553.4883,
+   "plagHaMincha": 1789249899375.4883,
+   "sofAchilasChametz": 1789224347534.4883,
+   "sofBiurChametz": 1789228132992.4883,
+   "sofShemaMGA": 1789218043720.1772,
+   "sofTefillaMGA": 1789222649176.1772,
+   "sofShemaMGA198": 1789217408127.8293,
+   "sofTefillaMGA198": 1789222224176.8293,
+   "minchaGedolaMGA": 1789234162816.1772,
+   "minchaKetanaMGA": 1789247979184.1772,
+   "plagHaMinchaMGA": 1789253736004.1772,
+   "chatzosLaila": 1789275147713.6113,
+   "beinHaShmashos": 1789255824251.1995,
+   "shaahZmanisGRA": 3785458,
+   "shaahZmanisMGA": 4605456,
+   "havdalah": 1789257093277.4937,
+   "tzeis": 1789257093277.4937,
+   "candleLighting": 1789253551202.7642
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Chullin",
+   "daf": 135
+  },
+  "molad": null,
+  "levana": null,
+  "candle": null,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Chanukah 25 Kislev Shabbos NY",
+  "y": 2026,
+  "m": 12,
+  "d": 5,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5787,
+   "m": 9,
+   "d": 25
+  },
+  "wd": 6,
+  "parsha": {
+   "names": [
+    "Vayeshev"
+   ],
+   "chag": false
+  },
+  "events": [
+   {
+    "name": "Chanukah",
+    "type": "minor"
+   },
+   {
+    "name": "Shabbos Mevarchim Teves",
+    "type": "mevarchim"
+   }
+  ],
+  "zmanim": {
+   "netz": 1796472264142.2263,
+   "shkia": 1796506118516.3403,
+   "alos161": 1796467020155.58,
+   "alos18": 1796466396940.417,
+   "alos198": 1796465810453.7705,
+   "alos72": 1796467944142.2263,
+   "misheyakir115": 1796468550095.9048,
+   "misheyakir102": 1796468988825.7476,
+   "tzeis85": 1796508817143.5461,
+   "tzeis7083": 1796508329857.0493,
+   "tzeis161": 1796511365745.4382,
+   "tzeis72": 1796510438516.3403,
+   "tzeis50": 1796509118516.3403,
+   "tzeis42": 1796508638516.3403,
+   "beinHaShmashosRT": 1796509503952.7402,
+   "sofShemaGRA": 1796480727733.2263,
+   "sofTefillaGRA": 1796483548930.2263,
+   "chatzos": 1796489191324.2263,
+   "minchaGedola": 1796490601922.2263,
+   "minchaKetana": 1796499065513.2263,
+   "plagHaMincha": 1796502592009.2263,
+   "sofAchilasChametz": 1796483548930.2263,
+   "sofBiurChametz": 1796486370127.2263,
+   "sofShemaMGA": 1796478106550.58,
+   "sofTefillaMGA": 1796481802015.58,
+   "sofShemaMGA198": 1796477501813.7705,
+   "sofTefillaMGA198": 1796481398933.7705,
+   "minchaGedolaMGA": 1796491040677.58,
+   "minchaKetanaMGA": 1796502127072.58,
+   "plagHaMinchaMGA": 1796506746403.58,
+   "chatzosLaila": 1796532419590.2188,
+   "beinHaShmashos": 1796507519857.0493,
+   "shaahZmanisGRA": 2821197,
+   "shaahZmanisMGA": 3695465,
+   "havdalah": 1796508817143.5461,
+   "tzeis": 1796508817143.5461,
+   "candleLighting": 1796505038516.3403
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Arachin",
+   "daf": 18
+  },
+  "molad": {
+   "month": "Teves",
+   "hour": 11,
+   "minutes": 11,
+   "chalakim": 4
+  },
+  "levana": null,
+  "candle": null,
+  "havdalah": 1796508817143.5461,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Asara BTeves NY",
+  "y": 2026,
+  "m": 12,
+  "d": 20,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5787,
+   "m": 10,
+   "d": 10
+  },
+  "wd": 0,
+  "parsha": {
+   "names": [
+    "Vayechi"
+   ],
+   "chag": false
+  },
+  "events": [
+   {
+    "name": "Asara B'Teves",
+    "type": "fast"
+   }
+  ],
+  "zmanim": {
+   "netz": 1797768956010.0303,
+   "shkia": 1797802276505.197,
+   "alos161": 1797763654570.2512,
+   "alos18": 1797763026965.568,
+   "alos198": 1797762436742.0896,
+   "alos72": 1797764636010.0303,
+   "misheyakir115": 1797765197222.0503,
+   "misheyakir102": 1797765640140.3542,
+   "tzeis85": 1797805008000.3958,
+   "tzeis7083": 1797804515625.6353,
+   "tzeis161": 1797807578272.067,
+   "tzeis72": 1797806596505.197,
+   "tzeis50": 1797805276505.197,
+   "tzeis42": 1797804796505.197,
+   "beinHaShmashosRT": 1797805608553.597,
+   "sofShemaGRA": 1797777286131.0303,
+   "sofTefillaGRA": 1797780062838.0303,
+   "chatzos": 1797785616252.0303,
+   "minchaGedola": 1797787004605.0303,
+   "minchaKetana": 1797795334726.0303,
+   "plagHaMincha": 1797798805610.0303,
+   "sofAchilasChametz": 1797780062838.0303,
+   "sofBiurChametz": 1797782839545.0303,
+   "sofShemaMGA": 1797774635494.2512,
+   "sofTefillaMGA": 1797778295802.2512,
+   "sofShemaMGA198": 1797774026591.0896,
+   "sofTefillaMGA198": 1797777889874.0896,
+   "minchaGedolaMGA": 1797787446572.2512,
+   "minchaKetanaMGA": 1797798427496.2512,
+   "plagHaMinchaMGA": 1797803002881.2512,
+   "chatzosLaila": 1797828832392.422,
+   "beinHaShmashos": 1797803705625.6353,
+   "shaahZmanisGRA": 2776707,
+   "shaahZmanisMGA": 3660308,
+   "havdalah": 1797805008000.3958,
+   "tzeis": 1797805008000.3958,
+   "candleLighting": 1797801196505.197
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Arachin",
+   "daf": 33
+  },
+  "molad": null,
+  "levana": {
+   "fromMs": 1797065416933.3333,
+   "toMs": 1798081937599.3333
+  },
+  "candle": null,
+  "havdalah": null,
+  "fastBegin": 1797763654570.2512,
+  "fastEnd": 1797805008000.3958,
+  "chametz": null
+ },
+ {
+  "label": "Erev Pesach chametz NY",
+  "y": 2026,
+  "m": 4,
+  "d": 1,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5786,
+   "m": 1,
+   "d": 14
+  },
+  "wd": 3,
+  "parsha": {
+   "names": [
+    "Shabbos Chol HaMoed Pesach"
+   ],
+   "chag": true
+  },
+  "events": [
+   {
+    "name": "Erev Pesach",
+    "type": "erev"
+   }
+  ],
+  "zmanim": {
+   "netz": 1775040004062.3179,
+   "shkia": 1775085634331.166,
+   "alos161": 1775035017166.7751,
+   "alos18": 1775034368890.3767,
+   "alos198": 1775033745715.2734,
+   "alos72": 1775035684062.3179,
+   "misheyakir115": 1775036554119.2256,
+   "misheyakir102": 1775036981691.5872,
+   "tzeis85": 1775088170147.0908,
+   "tzeis7083": 1775087642550.3281,
+   "tzeis161": 1775090701576.3052,
+   "tzeis72": 1775089954331.166,
+   "tzeis50": 1775088634331.166,
+   "tzeis42": 1775088154331.166,
+   "beinHaShmashosRT": 1775090197357.566,
+   "sofShemaGRA": 1775051411628.3179,
+   "sofTefillaGRA": 1775055214150.3179,
+   "chatzos": 1775062819194.3179,
+   "minchaGedola": 1775064720455.3179,
+   "minchaKetana": 1775076128021.3179,
+   "plagHaMincha": 1775080881173.3179,
+   "sofAchilasChametz": 1775055214150.3179,
+   "sofBiurChametz": 1775059016672.3179,
+   "sofShemaMGA": 1775048938267.7751,
+   "sofTefillaMGA": 1775053578634.7751,
+   "sofShemaMGA198": 1775048304625.2734,
+   "sofTefillaMGA198": 1775053157595.2734,
+   "minchaGedolaMGA": 1775065179551.7751,
+   "minchaKetanaMGA": 1775079100652.7751,
+   "plagHaMinchaMGA": 1775084901111.7751,
+   "chatzosLaila": 1775105969983.3818,
+   "beinHaShmashos": 1775086832550.3281,
+   "shaahZmanisGRA": 3802522,
+   "shaahZmanisMGA": 4640367,
+   "havdalah": 1775088170147.0908,
+   "tzeis": 1775088170147.0908,
+   "candleLighting": 1775084554331.166
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Menachos",
+   "daf": 80
+  },
+  "molad": null,
+  "levana": {
+   "fromMs": 1774102426933.3333,
+   "toMs": 1775118947599.3333
+  },
+  "candle": 1775084554331.166,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": {
+   "achila": 1775055214150.3179,
+   "biur": 1775059016672.3179
+  }
+ },
+ {
+  "label": "Pesach day 1 NY",
+  "y": 2026,
+  "m": 4,
+  "d": 2,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5786,
+   "m": 1,
+   "d": 15
+  },
+  "wd": 4,
+  "parsha": {
+   "names": [
+    "Shabbos Chol HaMoed Pesach"
+   ],
+   "chag": true
+  },
+  "events": [
+   {
+    "name": "Pesach",
+    "type": "yt"
+   }
+  ],
+  "zmanim": {
+   "netz": 1775126305635.598,
+   "shkia": 1775172097060.6301,
+   "alos161": 1775121307111.046,
+   "alos18": 1775120656192.052,
+   "alos198": 1775120030148.0935,
+   "alos72": 1775121985635.598,
+   "misheyakir115": 1775122849132.8538,
+   "misheyakir102": 1775123277852.512,
+   "tzeis85": 1775174637231.179,
+   "tzeis7083": 1775174108453.0537,
+   "tzeis161": 1775177176614.204,
+   "tzeis72": 1775176417060.6301,
+   "tzeis50": 1775175097060.6301,
+   "tzeis42": 1775174617060.6301,
+   "beinHaShmashosRT": 1775176676203.03,
+   "sofShemaGRA": 1775137753491.598,
+   "sofTefillaGRA": 1775141569443.598,
+   "chatzos": 1775149201347.598,
+   "minchaGedola": 1775151109323.598,
+   "minchaKetana": 1775162557179.598,
+   "plagHaMincha": 1775167327119.598,
+   "sofAchilasChametz": 1775141569443.598,
+   "sofBiurChametz": 1775145385395.598,
+   "sofShemaMGA": 1775135274484.046,
+   "sofTefillaMGA": 1775139930275.046,
+   "sofShemaMGA198": 1775134638156.0935,
+   "sofTefillaMGA198": 1775139507492.0935,
+   "minchaGedolaMGA": 1775151569752.046,
+   "minchaKetanaMGA": 1775165537125.046,
+   "plagHaMinchaMGA": 1775171356864.046,
+   "chatzosLaila": 1775192352275.1484,
+   "beinHaShmashos": 1775173298453.0537,
+   "shaahZmanisGRA": 3815952,
+   "shaahZmanisMGA": 4655791,
+   "havdalah": 1775174637231.179,
+   "tzeis": 1775174637231.179,
+   "candleLighting": 1775171017060.6301
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Menachos",
+   "daf": 81
+  },
+  "molad": null,
+  "levana": null,
+  "candle": 1775171017060.6301,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Omer day NY",
+  "y": 2026,
+  "m": 4,
+  "d": 20,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5786,
+   "m": 2,
+   "d": 3
+  },
+  "wd": 1,
+  "parsha": {
+   "names": [
+    "Acharei Mos",
+    "Kedoshim"
+   ],
+   "chag": false
+  },
+  "events": [],
+  "zmanim": {
+   "netz": 1776679811685.6416,
+   "shkia": 1776728426150.6702,
+   "alos161": 1776674524041.6711,
+   "alos18": 1776673809816.4192,
+   "alos198": 1776673114632.0283,
+   "alos72": 1776675491685.6416,
+   "misheyakir115": 1776676187602.6023,
+   "misheyakir102": 1776676644144.1887,
+   "tzeis85": 1776731078478.0112,
+   "tzeis7083": 1776730590172.142,
+   "tzeis161": 1776733807311.3289,
+   "tzeis72": 1776732746150.6702,
+   "tzeis50": 1776731426150.6702,
+   "tzeis42": 1776730946150.6702,
+   "beinHaShmashosRT": 1776733287596.6702,
+   "sofShemaGRA": 1776691965300.6416,
+   "sofTefillaGRA": 1776696016505.6416,
+   "chatzos": 1776704118915.6416,
+   "minchaGedola": 1776706144517.6416,
+   "minchaKetana": 1776718298132.6416,
+   "plagHaMincha": 1776723362138.6416,
+   "sofAchilasChametz": 1776696016505.6416,
+   "sofBiurChametz": 1776700067710.6416,
+   "sofShemaMGA": 1776689344857.6711,
+   "sofTefillaMGA": 1776694285129.6711,
+   "sofShemaMGA198": 1776688643682.0283,
+   "sofTefillaMGA198": 1776693820032.0283,
+   "minchaGedolaMGA": 1776706635809.6711,
+   "minchaKetanaMGA": 1776721456625.6711,
+   "plagHaMinchaMGA": 1776727631965.6711,
+   "chatzosLaila": 1776747275004.998,
+   "beinHaShmashos": 1776729780172.142,
+   "shaahZmanisGRA": 4051205,
+   "shaahZmanisMGA": 4940272,
+   "havdalah": 1776731078478.0112,
+   "tzeis": 1776731078478.0112,
+   "candleLighting": 1776727346150.6702
+  },
+  "candleLightingMins": 18,
+  "omer": 18,
+  "daf": {
+   "name": "Menachos",
+   "daf": 99
+  },
+  "molad": null,
+  "levana": {
+   "fromMs": 1776653870266.6667,
+   "toMs": 1777670390932.6667
+  },
+  "candle": null,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Shabbos Mevarchim Cheshvan molad NY",
+  "y": 2026,
+  "m": 10,
+  "d": 10,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5787,
+   "m": 7,
+   "d": 29
+  },
+  "wd": 6,
+  "parsha": {
+   "names": [
+    "Bereshit"
+   ],
+   "chag": false
+  },
+  "events": [
+   {
+    "name": "Shabbos Mevarchim Cheshvan",
+    "type": "mevarchim"
+   }
+  ],
+  "zmanim": {
+   "netz": 1791630093753.1213,
+   "shkia": 1791671034139.887,
+   "alos161": 1791625247723.7627,
+   "alos18": 1791624642753.4106,
+   "alos198": 1791624067599.3713,
+   "alos72": 1791625773753.1213,
+   "misheyakir115": 1791626706733.3997,
+   "misheyakir102": 1791627118377.8884,
+   "tzeis85": 1791673472095.7837,
+   "tzeis7083": 1791673023070.3193,
+   "tzeis161": 1791675880743.1306,
+   "tzeis72": 1791675354139.887,
+   "tzeis50": 1791674034139.887,
+   "tzeis42": 1791673554139.887,
+   "beinHaShmashosRT": 1791675128177.487,
+   "sofShemaGRA": 1791640328847.1213,
+   "sofTefillaGRA": 1791643740545.1213,
+   "chatzos": 1791650563941.1213,
+   "minchaGedola": 1791652269790.1213,
+   "minchaKetana": 1791662504884.1213,
+   "plagHaMincha": 1791666769506.1213,
+   "sofAchilasChametz": 1791643740545.1213,
+   "sofBiurChametz": 1791647152243.1213,
+   "sofShemaMGA": 1791637905977.7627,
+   "sofTefillaMGA": 1791642125395.7627,
+   "sofShemaMGA198": 1791637292145.3713,
+   "sofTefillaMGA198": 1791641700327.3713,
+   "minchaGedolaMGA": 1791652673940.7627,
+   "minchaKetanaMGA": 1791665332194.7627,
+   "plagHaMinchaMGA": 1791670606466.7627,
+   "chatzosLaila": 1791693795724.2197,
+   "beinHaShmashos": 1791672213070.3193,
+   "shaahZmanisGRA": 3411698,
+   "shaahZmanisMGA": 4219418,
+   "havdalah": 1791673472095.7837,
+   "tzeis": 1791673472095.7837,
+   "candleLighting": 1791669954139.887
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Bechoros",
+   "daf": 22
+  },
+  "molad": {
+   "month": "Cheshvan",
+   "hour": 9,
+   "minutes": 43,
+   "chalakim": 2
+  },
+  "levana": null,
+  "candle": null,
+  "havdalah": 1791673472095.7837,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Kiddush Levana window NY",
+  "y": 2026,
+  "m": 9,
+  "d": 20,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5787,
+   "m": 7,
+   "d": 9
+  },
+  "wd": 0,
+  "parsha": {
+   "names": [
+    "Sukkos"
+   ],
+   "chag": true
+  },
+  "events": [
+   {
+    "name": "Erev Yom Kippur",
+    "type": "erev"
+   }
+  ],
+  "zmanim": {
+   "netz": 1789900875565.2021,
+   "shkia": 1789945020361.1118,
+   "alos161": 1789895969706.9878,
+   "alos18": 1789895340826.6145,
+   "alos198": 1789894738757.2827,
+   "alos72": 1789896555565.2021,
+   "misheyakir115": 1789897469834.1697,
+   "misheyakir102": 1789897889217.6538,
+   "tzeis85": 1789947459605.2642,
+   "tzeis7083": 1789947006501.456,
+   "tzeis161": 1789949814273.0212,
+   "tzeis72": 1789949340361.1118,
+   "tzeis50": 1789948020361.1118,
+   "tzeis42": 1789947540361.1118,
+   "beinHaShmashosRT": 1789949434839.5117,
+   "sofShemaGRA": 1789911911761.2021,
+   "sofTefillaGRA": 1789915590493.2021,
+   "chatzos": 1789922947957.2021,
+   "minchaGedola": 1789924787323.2021,
+   "minchaKetana": 1789935823519.2021,
+   "plagHaMincha": 1789940421934.2021,
+   "sofAchilasChametz": 1789915590493.2021,
+   "sofBiurChametz": 1789919269225.2021,
+   "sofShemaMGA": 1789909430847.9878,
+   "sofTefillaMGA": 1789913917894.9878,
+   "sofShemaMGA198": 1789908813944.2827,
+   "sofTefillaMGA198": 1789913505673.2827,
+   "minchaGedolaMGA": 1789925135511.9878,
+   "minchaKetanaMGA": 1789938596652.9878,
+   "plagHaMinchaMGA": 1789944205461.9878,
+   "chatzosLaila": 1789966177527.1328,
+   "beinHaShmashos": 1789946196501.456,
+   "shaahZmanisGRA": 3678732,
+   "shaahZmanisMGA": 4487047,
+   "havdalah": 1789947459605.2642,
+   "tzeis": 1789947459605.2642,
+   "candleLighting": 1789943940361.1118
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Bechoros",
+   "daf": 2
+  },
+  "molad": null,
+  "levana": {
+   "fromMs": 1789411086933.3333,
+   "toMs": 1790427607599.3333
+  },
+  "candle": 1789943940361.1118,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Winter NY",
+  "y": 2026,
+  "m": 1,
+  "d": 15,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5786,
+   "m": 10,
+   "d": 26
+  },
+  "wd": 4,
+  "parsha": {
+   "names": [
+    "Va'eira"
+   ],
+   "chag": false
+  },
+  "events": [],
+  "zmanim": {
+   "netz": 1768479491634.8464,
+   "shkia": 1768513995443.64,
+   "alos161": 1768474307334.6604,
+   "alos18": 1768473688588.7388,
+   "alos198": 1768473105870.4941,
+   "alos72": 1768475171634.8464,
+   "misheyakir115": 1768475824181.2188,
+   "misheyakir102": 1768476258567.4492,
+   "tzeis85": 1768516653424.053,
+   "tzeis7083": 1768516172423.3022,
+   "tzeis161": 1768519175454.4783,
+   "tzeis72": 1768518315443.64,
+   "tzeis50": 1768516995443.64,
+   "tzeis42": 1768516515443.64,
+   "beinHaShmashosRT": 1768517445824.0398,
+   "sofShemaGRA": 1768488117585.8464,
+   "sofTefillaGRA": 1768490992902.8464,
+   "chatzos": 1768496743536.8464,
+   "minchaGedola": 1768498181194.8464,
+   "minchaKetana": 1768506807145.8464,
+   "plagHaMincha": 1768510401291.8464,
+   "sofAchilasChametz": 1768490992902.8464,
+   "sofBiurChametz": 1768493868219.8464,
+   "sofShemaMGA": 1768485524361.6604,
+   "sofTefillaMGA": 1768489263370.6604,
+   "sofShemaMGA198": 1768484923485.4941,
+   "sofTefillaMGA198": 1768488862690.4941,
+   "minchaGedolaMGA": 1768498610892.6604,
+   "minchaKetanaMGA": 1768509827919.6604,
+   "plagHaMinchaMGA": 1768514501680.6604,
+   "chatzosLaila": 1768539930854.2192,
+   "beinHaShmashos": 1768515362423.3022,
+   "shaahZmanisGRA": 2875317,
+   "shaahZmanisMGA": 3739009,
+   "havdalah": 1768516653424.053,
+   "tzeis": 1768516653424.053,
+   "candleLighting": 1768512915443.64
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Menachos",
+   "daf": 4
+  },
+  "molad": null,
+  "levana": null,
+  "candle": null,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Summer NY",
+  "y": 2026,
+  "m": 6,
+  "d": 21,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5786,
+   "m": 4,
+   "d": 6
+  },
+  "wd": 0,
+  "parsha": {
+   "names": [
+    "Chukas",
+    "Balak"
+   ],
+   "chag": false
+  },
+  "events": [],
+  "zmanim": {
+   "netz": 1782033891872.5425,
+   "shkia": 1782088248898.1711,
+   "alos161": 1782027335499.5894,
+   "alos18": 1782026301307.4944,
+   "alos198": 1782025219454.4292,
+   "alos72": 1782029571872.5425,
+   "misheyakir115": 1782029552845.014,
+   "misheyakir102": 1782030128790.7383,
+   "tzeis85": 1782091283221.1562,
+   "tzeis7083": 1782090694481.6826,
+   "tzeis161": 1782094804355.2527,
+   "tzeis72": 1782092568898.1711,
+   "tzeis50": 1782091248898.1711,
+   "tzeis42": 1782090768898.1711,
+   "beinHaShmashosRT": 1782093684600.571,
+   "sofShemaGRA": 1782047481128.5425,
+   "sofTefillaGRA": 1782052010880.5425,
+   "chatzos": 1782061070384.5425,
+   "minchaGedola": 1782063335260.5425,
+   "minchaKetana": 1782076924516.5425,
+   "plagHaMincha": 1782082586706.5425,
+   "sofAchilasChametz": 1782052010880.5425,
+   "sofBiurChametz": 1782056540632.5425,
+   "sofShemaMGA": 1782044202711.5894,
+   "sofTefillaMGA": 1782049825115.5894,
+   "sofShemaMGA198": 1782043144526.4292,
+   "sofTefillaMGA198": 1782049119550.4292,
+   "minchaGedolaMGA": 1782063881125.5894,
+   "minchaKetanaMGA": 1782080748337.5894,
+   "plagHaMinchaMGA": 1782087776342.5894,
+   "chatzosLaila": 1782104277092.5386,
+   "beinHaShmashos": 1782089884481.6826,
+   "shaahZmanisGRA": 4529752,
+   "shaahZmanisMGA": 5622404,
+   "havdalah": 1782091283221.1562,
+   "tzeis": 1782091283221.1562,
+   "candleLighting": 1782087168898.1711
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Chullin",
+   "daf": 52
+  },
+  "molad": null,
+  "levana": {
+   "fromMs": 1781756756933.3333,
+   "toMs": 1782773277599.3333
+  },
+  "candle": null,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Yom Kippur 5786 NY",
+  "y": 2025,
+  "m": 10,
+  "d": 2,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5786,
+   "m": 7,
+   "d": 10
+  },
+  "wd": 4,
+  "parsha": {
+   "names": [
+    "Haazinu"
+   ],
+   "chag": false
+  },
+  "events": [
+   {
+    "name": "Yom Kippur",
+    "type": "fast-yt"
+   }
+  ],
+  "zmanim": {
+   "netz": 1759402395663.6426,
+   "shkia": 1759444611939.656,
+   "alos161": 1759397545605.3755,
+   "alos18": 1759396934132.2603,
+   "alos198": 1759396351354.7131,
+   "alos72": 1759398075663.6426,
+   "misheyakir115": 1759399014442.2966,
+   "misheyakir102": 1759399427458.4097,
+   "tzeis85": 1759447041063.8418,
+   "tzeis7083": 1759446592176.743,
+   "tzeis161": 1759449460996.174,
+   "tzeis72": 1759448931939.656,
+   "tzeis50": 1759447611939.656,
+   "tzeis42": 1759447131939.656,
+   "beinHaShmashosRT": 1759448833567.256,
+   "sofShemaGRA": 1759412949732.6426,
+   "sofTefillaGRA": 1759416467755.6426,
+   "chatzos": 1759423503801.6426,
+   "minchaGedola": 1759425262812.6426,
+   "minchaKetana": 1759435816881.6426,
+   "plagHaMincha": 1759440214410.6426,
+   "sofAchilasChametz": 1759416467755.6426,
+   "sofBiurChametz": 1759419985778.6426,
+   "sofShemaMGA": 1759410524451.3755,
+   "sofTefillaMGA": 1759414850733.3755,
+   "sofShemaMGA198": 1759409901367.7131,
+   "sofTefillaMGA198": 1759414418038.7131,
+   "minchaGedolaMGA": 1759425666438.3755,
+   "minchaKetanaMGA": 1759438645284.3755,
+   "plagHaMinchaMGA": 1759444053136.3755,
+   "chatzosLaila": 1759466734464.8887,
+   "beinHaShmashos": 1759445782176.743,
+   "shaahZmanisGRA": 3518023,
+   "shaahZmanisMGA": 4326282,
+   "havdalah": 1759447041063.8418,
+   "tzeis": 1759447041063.8418,
+   "candleLighting": 1759443531939.656
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Zevachim",
+   "daf": 18
+  },
+  "molad": null,
+  "levana": {
+   "fromMs": 1758793766933.3333,
+   "toMs": 1759810287599.3333
+  },
+  "candle": null,
+  "havdalah": 1759447041063.8418,
+  "fastBegin": 1759357231237.0688,
+  "fastEnd": 1759447041063.8418,
+  "chametz": null
+ },
+ {
+  "label": "Tzom Gedaliah shifted Sun NY",
+  "y": 2024,
+  "m": 10,
+  "d": 6,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5785,
+   "m": 7,
+   "d": 4
+  },
+  "wd": 0,
+  "parsha": {
+   "names": [
+    "Yom Kippur"
+   ],
+   "chag": true
+  },
+  "events": [
+   {
+    "name": "Tzom Gedaliah",
+    "type": "fast"
+   }
+  ],
+  "zmanim": {
+   "netz": 1728212304884.6067,
+   "shkia": 1728253721889.092,
+   "alos161": 1728207460297.6611,
+   "alos18": 1728206853325.886,
+   "alos198": 1728206275756.8457,
+   "alos72": 1728207984884.6067,
+   "misheyakir115": 1728208922031.4602,
+   "misheyakir102": 1728209333936.5303,
+   "tzeis85": 1728256155124.556,
+   "tzeis7083": 1728255706414.441,
+   "tzeis161": 1728258566475.3027,
+   "tzeis72": 1728258041889.092,
+   "tzeis50": 1728256721889.092,
+   "tzeis42": 1728256241889.092,
+   "beinHaShmashosRT": 1728257863589.492,
+   "sofShemaGRA": 1728222659135.6067,
+   "sofTefillaGRA": 1728226110552.6067,
+   "chatzos": 1728233013386.6067,
+   "minchaGedola": 1728234739094.6067,
+   "minchaKetana": 1728245093345.6067,
+   "plagHaMincha": 1728249407616.6067,
+   "sofAchilasChametz": 1728226110552.6067,
+   "sofBiurChametz": 1728229561969.6067,
+   "sofShemaMGA": 1728220236841.6611,
+   "sofTefillaMGA": 1728224495689.6611,
+   "sofShemaMGA198": 1728219619933.8457,
+   "sofTefillaMGA198": 1728224067992.8457,
+   "minchaGedolaMGA": 1728235142809.6611,
+   "minchaKetanaMGA": 1728247919353.6611,
+   "plagHaMinchaMGA": 1728253242913.6611,
+   "chatzosLaila": 1728276244718.3257,
+   "beinHaShmashos": 1728254896414.441,
+   "shaahZmanisGRA": 3451417,
+   "shaahZmanisMGA": 4258848,
+   "havdalah": 1728256155124.556,
+   "tzeis": 1728256155124.556,
+   "candleLighting": 1728252641889.092
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Bava Basra",
+   "daf": 103
+  },
+  "molad": null,
+  "levana": {
+   "fromMs": 1728176446933.3333,
+   "toMs": 1729192967599.3333
+  },
+  "candle": null,
+  "havdalah": null,
+  "fastBegin": 1728207460297.6611,
+  "fastEnd": 1728256155124.556,
+  "chametz": null
+ },
+ {
+  "label": "Purim leap year NY",
+  "y": 2024,
+  "m": 3,
+  "d": 25,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5784,
+   "m": 13,
+   "d": 15
+  },
+  "wd": 1,
+  "parsha": {
+   "names": [
+    "Tzav"
+   ],
+   "chag": false
+  },
+  "events": [
+   {
+    "name": "Shushan Purim",
+    "type": "minor"
+   }
+  ],
+  "zmanim": {
+   "netz": 1711363798819.6975,
+   "shkia": 1711408456933.0212,
+   "alos161": 1711358871849.7036,
+   "alos18": 1711358237670.8103,
+   "alos198": 1711357629820.039,
+   "alos72": 1711359478819.6975,
+   "misheyakir115": 1711360381938.9036,
+   "misheyakir102": 1711360803502.365,
+   "tzeis85": 1711410905108.9275,
+   "tzeis7083": 1711410449586.2153,
+   "tzeis161": 1711413460372.7888,
+   "tzeis72": 1711412776933.0212,
+   "tzeis50": 1711411456933.0212,
+   "tzeis42": 1711410976933.0212,
+   "beinHaShmashosRT": 1711412922743.8213,
+   "sofShemaGRA": 1711374963346.6975,
+   "sofTefillaGRA": 1711378684855.6975,
+   "chatzos": 1711386127873.6975,
+   "minchaGedola": 1711387988627.6975,
+   "minchaKetana": 1711399153154.6975,
+   "plagHaMincha": 1711403805040.6975,
+   "sofAchilasChametz": 1711378684855.6975,
+   "sofBiurChametz": 1711382406364.6975,
+   "sofShemaMGA": 1711372518978.7036,
+   "sofTefillaMGA": 1711377068021.7036,
+   "sofShemaMGA198": 1711371899659.039,
+   "sofTefillaMGA198": 1711376656272.039,
+   "minchaGedolaMGA": 1711388440628.7036,
+   "minchaKetanaMGA": 1711402087757.7036,
+   "plagHaMinchaMGA": 1711407774061.7036,
+   "chatzosLaila": 1711429278139.208,
+   "beinHaShmashos": 1711409639586.2153,
+   "shaahZmanisGRA": 3721509,
+   "shaahZmanisMGA": 4549043,
+   "havdalah": 1711410905108.9275,
+   "tzeis": 1711410905108.9275,
+   "candleLighting": 1711407376933.0212
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Bava Metzia",
+   "daf": 26
+  },
+  "molad": null,
+  "levana": null,
+  "candle": null,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Taanis Esther leap year NY",
+  "y": 2024,
+  "m": 3,
+  "d": 24,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5784,
+   "m": 13,
+   "d": 14
+  },
+  "wd": 0,
+  "parsha": {
+   "names": [
+    "Tzav"
+   ],
+   "chag": false
+  },
+  "events": [
+   {
+    "name": "Purim",
+    "type": "minor"
+   }
+  ],
+  "zmanim": {
+   "netz": 1711277498362.5112,
+   "shkia": 1711321993781.1318,
+   "alos161": 1711272579749.8687,
+   "alos18": 1711271947637.324,
+   "alos198": 1711271342038.9543,
+   "alos72": 1711273178362.5112,
+   "misheyakir115": 1711274085941.6072,
+   "misheyakir102": 1711274506647.846,
+   "tzeis85": 1711324439227.9207,
+   "tzeis7083": 1711323984423.4946,
+   "tzeis161": 1711326988255.3403,
+   "tzeis72": 1711326313781.1318,
+   "tzeis50": 1711324993781.1318,
+   "tzeis42": 1711324513781.1318,
+   "beinHaShmashosRT": 1711326443322.3318,
+   "sofShemaGRA": 1711288622215.5112,
+   "sofTefillaGRA": 1711292330166.5112,
+   "chatzos": 1711299746068.5112,
+   "minchaGedola": 1711301600043.5112,
+   "minchaKetana": 1711312723896.5112,
+   "plagHaMincha": 1711317358835.5112,
+   "sofAchilasChametz": 1711292330166.5112,
+   "sofBiurChametz": 1711296038117.5112,
+   "sofShemaMGA": 1711286181875.8687,
+   "sofTefillaMGA": 1711290715917.8687,
+   "sofShemaMGA198": 1711285564654.9543,
+   "sofTefillaMGA198": 1711290305526.9543,
+   "minchaGedolaMGA": 1711302051022.8687,
+   "minchaKetanaMGA": 1711315653148.8687,
+   "plagHaMinchaMGA": 1711321320700.8687,
+   "chatzosLaila": 1711342896300.4146,
+   "beinHaShmashos": 1711323174423.4946,
+   "shaahZmanisGRA": 3707951,
+   "shaahZmanisMGA": 4534042,
+   "havdalah": 1711324439227.9207,
+   "tzeis": 1711324439227.9207,
+   "candleLighting": 1711320913781.1318
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Bava Metzia",
+   "daf": 25
+  },
+  "molad": null,
+  "levana": {
+   "fromMs": 1710316343600,
+   "toMs": 1711332864266
+  },
+  "candle": null,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Tisha BAv 5786 NY",
+  "y": 2026,
+  "m": 7,
+  "d": 30,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5786,
+   "m": 5,
+   "d": 16
+  },
+  "wd": 4,
+  "parsha": {
+   "names": [
+    "Eikev"
+   ],
+   "chag": false
+  },
+  "events": [],
+  "zmanim": {
+   "netz": 1785405028712.7554,
+   "shkia": 1785456767855.727,
+   "alos161": 1785399167291.9646,
+   "alos18": 1785398321486.446,
+   "alos198": 1785397476518.3171,
+   "alos72": 1785400708712.7554,
+   "misheyakir115": 1785401072864.7659,
+   "misheyakir102": 1785401583621.369,
+   "tzeis85": 1785459545049.6267,
+   "tzeis7083": 1785459014772.1646,
+   "tzeis161": 1785462589559.007,
+   "tzeis72": 1785461087855.727,
+   "tzeis50": 1785459767855.727,
+   "tzeis42": 1785459287855.727,
+   "beinHaShmashosRT": 1785461941769.727,
+   "sofShemaGRA": 1785417963497.7554,
+   "sofTefillaGRA": 1785422275092.7554,
+   "chatzos": 1785430898282.7554,
+   "minchaGedola": 1785433054079.7554,
+   "minchaKetana": 1785445988864.7554,
+   "plagHaMincha": 1785451378358.7554,
+   "sofAchilasChametz": 1785422275092.7554,
+   "sofBiurChametz": 1785426586687.7554,
+   "sofShemaMGA": 1785415022855.9646,
+   "sofTefillaMGA": 1785420308043.9646,
+   "sofShemaMGA198": 1785414172217.3171,
+   "sofTefillaMGA198": 1785419737450.3171,
+   "minchaGedolaMGA": 1785433521013.9646,
+   "minchaKetanaMGA": 1785449376577.9646,
+   "plagHaMinchaMGA": 1785455983062.9646,
+   "chatzosLaila": 1785474126538.9883,
+   "beinHaShmashos": 1785458204772.1646,
+   "shaahZmanisGRA": 4311595,
+   "shaahZmanisMGA": 5285188,
+   "havdalah": 1785459545049.6267,
+   "tzeis": 1785459545049.6267,
+   "candleLighting": 1785455687855.727
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Chullin",
+   "daf": 91
+  },
+  "molad": null,
+  "levana": null,
+  "candle": null,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Tisha BAv observed 5786 NY",
+  "y": 2026,
+  "m": 7,
+  "d": 23,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5786,
+   "m": 5,
+   "d": 9
+  },
+  "wd": 4,
+  "parsha": {
+   "names": [
+    "Va'eschanan"
+   ],
+   "chag": false
+  },
+  "events": [
+   {
+    "name": "Tisha B'Av",
+    "type": "fast"
+   }
+  ],
+  "zmanim": {
+   "netz": 1784799845495.5366,
+   "shkia": 1784852372045.6692,
+   "alos161": 1784793799217.2297,
+   "alos18": 1784792907096.7085,
+   "alos198": 1784792006721.0989,
+   "alos72": 1784795525495.5366,
+   "misheyakir115": 1784795785356.392,
+   "misheyakir102": 1784796313504.9387,
+   "tzeis85": 1784855216374.1738,
+   "tzeis7083": 1784854670987.7966,
+   "tzeis161": 1784858379092.0635,
+   "tzeis72": 1784856692045.6692,
+   "tzeis50": 1784855372045.6692,
+   "tzeis42": 1784854892045.6692,
+   "beinHaShmashosRT": 1784857624700.069,
+   "sofShemaGRA": 1784812977131.5366,
+   "sofTefillaGRA": 1784817354343.5366,
+   "chatzos": 1784826108767.5366,
+   "minchaGedola": 1784828297373.5366,
+   "minchaKetana": 1784841429009.5366,
+   "plagHaMincha": 1784846900524.5366,
+   "sofAchilasChametz": 1784817354343.5366,
+   "sofBiurChametz": 1784821731555.5366,
+   "sofShemaMGA": 1784809944185.2297,
+   "sofTefillaMGA": 1784815325841.2297,
+   "sofShemaMGA198": 1784809042395.0989,
+   "sofTefillaMGA198": 1784814720953.0989,
+   "minchaGedolaMGA": 1784828779981.2297,
+   "minchaKetanaMGA": 1784844924949.2297,
+   "plagHaMinchaMGA": 1784851652019.2297,
+   "chatzosLaila": 1784869335361.9775,
+   "beinHaShmashos": 1784853860987.7966,
+   "shaahZmanisGRA": 4377212,
+   "shaahZmanisMGA": 5381656,
+   "havdalah": 1784855216374.1738,
+   "tzeis": 1784855216374.1738,
+   "candleLighting": 1784851292045.6692
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Chullin",
+   "daf": 84
+  },
+  "molad": null,
+  "levana": {
+   "fromMs": 1784308200266.6667,
+   "toMs": 1785324720932.6667
+  },
+  "candle": null,
+  "havdalah": null,
+  "fastBegin": 1784766023055.6292,
+  "fastEnd": 1784855216374.1738,
+  "chametz": null
+ },
+ {
+  "label": "Lag BaOmer 5786 NY",
+  "y": 2026,
+  "m": 5,
+  "d": 14,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5786,
+   "m": 2,
+   "d": 27
+  },
+  "wd": 4,
+  "parsha": {
+   "names": [
+    "Bamidbar"
+   ],
+   "chag": false
+  },
+  "events": [],
+  "zmanim": {
+   "netz": 1778751608632.4014,
+   "shkia": 1778803563854.0488,
+   "alos161": 1778745739262.7578,
+   "alos18": 1778744891512.9475,
+   "alos198": 1778744044250.496,
+   "alos72": 1778747288632.4014,
+   "misheyakir115": 1778747648268.4243,
+   "misheyakir102": 1778748159773.4543,
+   "tzeis85": 1778806373026.993,
+   "tzeis7083": 1778805835563.722,
+   "tzeis161": 1778809473386.4402,
+   "tzeis72": 1778807883854.0488,
+   "tzeis50": 1778806563854.0488,
+   "tzeis42": 1778806083854.0488,
+   "beinHaShmashosRT": 1778808759375.2488,
+   "sofShemaGRA": 1778764597435.4014,
+   "sofTefillaGRA": 1778768927036.4014,
+   "chatzos": 1778777586238.4014,
+   "minchaGedola": 1778779751038.4014,
+   "minchaKetana": 1778792739841.4014,
+   "plagHaMincha": 1778798151842.4014,
+   "sofAchilasChametz": 1778768927036.4014,
+   "sofBiurChametz": 1778773256637.4014,
+   "sofShemaMGA": 1778761672790.7578,
+   "sofTefillaMGA": 1778766983966.7578,
+   "sofShemaMGA198": 1778760830684.496,
+   "sofTefillaMGA198": 1778766426162.496,
+   "minchaGedolaMGA": 1778780261906.7578,
+   "minchaKetanaMGA": 1778796195434.7578,
+   "plagHaMinchaMGA": 1778802834404.7578,
+   "chatzosLaila": 1778820757148.1807,
+   "beinHaShmashos": 1778805025563.722,
+   "shaahZmanisGRA": 4329601,
+   "shaahZmanisMGA": 5311176,
+   "havdalah": 1778806373026.993,
+   "tzeis": 1778806373026.993,
+   "candleLighting": 1778802483854.0488
+  },
+  "candleLightingMins": 18,
+  "omer": 42,
+  "daf": {
+   "name": "Chullin",
+   "daf": 14
+  },
+  "molad": null,
+  "levana": null,
+  "candle": null,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Lag BaOmer actual 5786 NY",
+  "y": 2026,
+  "m": 5,
+  "d": 5,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5786,
+   "m": 2,
+   "d": 18
+  },
+  "wd": 2,
+  "parsha": {
+   "names": [
+    "Behar",
+    "Bechukosai"
+   ],
+   "chag": false
+  },
+  "events": [
+   {
+    "name": "Lag BaOmer",
+    "type": "minor"
+   }
+  ],
+  "zmanim": {
+   "netz": 1777974600252.809,
+   "shkia": 1778025363119.3115,
+   "alos161": 1777968967348.3137,
+   "alos18": 1777968175826.5994,
+   "alos198": 1777967393888.6074,
+   "alos72": 1777970280252.809,
+   "misheyakir115": 1777970775323.4841,
+   "misheyakir102": 1777971264541.3984,
+   "tzeis85": 1778028146391.8262,
+   "tzeis7083": 1778027628518.451,
+   "tzeis161": 1778031095925.6472,
+   "tzeis72": 1778029683119.3115,
+   "tzeis50": 1778028363119.3115,
+   "tzeis42": 1778027883119.3115,
+   "beinHaShmashosRT": 1778030439404.9116,
+   "sofShemaGRA": 1777987290966.809,
+   "sofTefillaGRA": 1777991521204.809,
+   "chatzos": 1777999981680.809,
+   "minchaGedola": 1778002096799.809,
+   "minchaKetana": 1778014787513.809,
+   "plagHaMincha": 1778020075310.809,
+   "sofAchilasChametz": 1777991521204.809,
+   "sofBiurChametz": 1777995751442.809,
+   "sofShemaMGA": 1777984499491.3137,
+   "sofTefillaMGA": 1777989676872.3137,
+   "sofShemaMGA198": 1777983717551.6074,
+   "sofTefillaMGA198": 1777989158772.6074,
+   "minchaGedolaMGA": 1778002620324.3137,
+   "minchaKetanaMGA": 1778018152467.3137,
+   "plagHaMinchaMGA": 1778024624193.3137,
+   "chatzosLaila": 1778043145979.5635,
+   "beinHaShmashos": 1778026818518.451,
+   "shaahZmanisGRA": 4230238,
+   "shaahZmanisMGA": 5177381,
+   "havdalah": 1778028146391.8262,
+   "tzeis": 1778028146391.8262,
+   "candleLighting": 1778024283119.3115
+  },
+  "candleLightingMins": 18,
+  "omer": 33,
+  "daf": {
+   "name": "Chullin",
+   "daf": 5
+  },
+  "molad": null,
+  "levana": null,
+  "candle": null,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Regular Shabbos NY",
+  "y": 2026,
+  "m": 2,
+  "d": 28,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5786,
+   "m": 12,
+   "d": 11
+  },
+  "wd": 6,
+  "parsha": {
+   "names": [
+    "Tetzaveh"
+   ],
+   "chag": false
+  },
+  "events": [
+   {
+    "name": "Shabbos Zachor",
+    "type": "special-shabbos"
+   }
+  ],
+  "zmanim": {
+   "netz": 1772278319253.9062,
+   "shkia": 1772318758110.506,
+   "alos161": 1772273466809.3445,
+   "alos18": 1772272863628.8945,
+   "alos198": 1772272290767.1653,
+   "alos72": 1772273999253.9062,
+   "misheyakir115": 1772274923958.949,
+   "misheyakir102": 1772275335679.6245,
+   "tzeis85": 1772321201673.737,
+   "tzeis7083": 1772320752109.008,
+   "tzeis161": 1772323675698.4136,
+   "tzeis72": 1772323078110.506,
+   "tzeis50": 1772321758110.506,
+   "tzeis42": 1772321278110.506,
+   "beinHaShmashosRT": 1772322801995.3062,
+   "sofShemaGRA": 1772288428965.9062,
+   "sofTefillaGRA": 1772291798869.9062,
+   "chatzos": 1772298538677.9062,
+   "minchaGedola": 1772300223629.9062,
+   "minchaKetana": 1772310333341.9062,
+   "plagHaMincha": 1772314545721.9062,
+   "sofAchilasChametz": 1772291798869.9062,
+   "sofBiurChametz": 1772295168773.9062,
+   "sofShemaMGA": 1772286019031.3445,
+   "sofTefillaMGA": 1772290203105.3445,
+   "sofShemaMGA198": 1772285431385.1653,
+   "sofTefillaMGA198": 1772289811591.1653,
+   "minchaGedolaMGA": 1772300663290.3445,
+   "minchaKetanaMGA": 1772313215512.3445,
+   "plagHaMinchaMGA": 1772318445604.3445,
+   "chatzosLaila": 1772341693087.1086,
+   "beinHaShmashos": 1772319942109.008,
+   "shaahZmanisGRA": 3369904,
+   "shaahZmanisMGA": 4184074,
+   "havdalah": 1772321201673.737,
+   "tzeis": 1772321201673.737,
+   "candleLighting": 1772317678110.506
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Menachos",
+   "daf": 48
+  },
+  "molad": null,
+  "levana": {
+   "fromMs": 1771550983600,
+   "toMs": 1772567504266
+  },
+  "candle": null,
+  "havdalah": 1772321201673.737,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "RH 5788 NY",
+  "y": 2027,
+  "m": 9,
+  "d": 22,
+  "loc": {
+   "name": "New York",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "tz": "America/New_York",
+   "elevM": 10
+  },
+  "il": false,
+  "heb": {
+   "y": 5787,
+   "m": 6,
+   "d": 20
+  },
+  "wd": 3,
+  "parsha": {
+   "names": [
+    "Nitzavim",
+    "Vayeilech"
+   ],
+   "chag": false
+  },
+  "events": [],
+  "zmanim": {
+   "netz": 1821609793944.641,
+   "shkia": 1821653617309.9666,
+   "alos161": 1821604901722.8184,
+   "alos18": 1821604276439.8345,
+   "alos198": 1821603678309.3997,
+   "alos72": 1821605473944.641,
+   "misheyakir115": 1821606395157.5056,
+   "misheyakir102": 1821606813100.9866,
+   "tzeis85": 1821656052866.9707,
+   "tzeis7083": 1821655600849.7576,
+   "tzeis161": 1821658399048.919,
+   "tzeis72": 1821657937309.9666,
+   "tzeis50": 1821656617309.9666,
+   "tzeis42": 1821656137309.9666,
+   "beinHaShmashosRT": 1821657999646.3665,
+   "sofShemaGRA": 1821620749785.641,
+   "sofTefillaGRA": 1821624401732.641,
+   "chatzos": 1821631705626.641,
+   "minchaGedola": 1821633531599.641,
+   "minchaKetana": 1821644487440.641,
+   "plagHaMincha": 1821649052374.641,
+   "sofAchilasChametz": 1821624401732.641,
+   "sofBiurChametz": 1821628053679.641,
+   "sofShemaMGA": 1821618276052.8184,
+   "sofTefillaMGA": 1821622734162.8184,
+   "sofShemaMGA198": 1821617663031.3997,
+   "sofTefillaMGA198": 1821622324605.3997,
+   "minchaGedolaMGA": 1821633879437.8184,
+   "minchaKetanaMGA": 1821647253767.8184,
+   "plagHaMinchaMGA": 1821652826404.8184,
+   "chatzosLaila": 1821674935320.3218,
+   "beinHaShmashos": 1821654790849.7576,
+   "shaahZmanisGRA": 3651947,
+   "shaahZmanisMGA": 4458110,
+   "havdalah": 1821656052866.9707,
+   "tzeis": 1821656052866.9707,
+   "candleLighting": 1821652537309.9666
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Shabbos",
+   "daf": 45
+  },
+  "molad": null,
+  "levana": null,
+  "candle": null,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Hoshana Rabba Jerusalem IL",
+  "y": 2026,
+  "m": 10,
+  "d": 2,
+  "loc": {
+   "name": "Jerusalem",
+   "lat": 31.7683,
+   "lng": 35.2137,
+   "tz": "Asia/Jerusalem",
+   "elevM": 750
+  },
+  "il": true,
+  "heb": {
+   "y": 5787,
+   "m": 7,
+   "d": 21
+  },
+  "wd": 5,
+  "parsha": {
+   "names": [
+    "Shemini Atzeres"
+   ],
+   "chag": true
+  },
+  "events": [
+   {
+    "name": "Hoshana Rabba",
+    "type": "chm"
+   }
+  ],
+  "zmanim": {
+   "netz": 1790911994775.5981,
+   "shkia": 1790954610170.0737,
+   "alos161": 1790907679112.3123,
+   "alos18": 1790907139065.499,
+   "alos198": 1790906626029.3503,
+   "alos72": 1790907674775.5981,
+   "misheyakir115": 1790908981970.1672,
+   "misheyakir102": 1790909349363.343,
+   "tzeis85": 1790956775638.4685,
+   "tzeis7083": 1790956375607.3398,
+   "tzeis161": 1790958925479.9795,
+   "tzeis72": 1790958930170.0737,
+   "tzeis50": 1790957610170.0737,
+   "tzeis42": 1790957130170.0737,
+   "beinHaShmashosRT": 1790958871708.4736,
+   "sofShemaGRA": 1790922648621.5981,
+   "sofTefillaGRA": 1790926199903.5981,
+   "chatzos": 1790933302467.5981,
+   "minchaGedola": 1790935078108.5981,
+   "minchaKetana": 1790945731954.5981,
+   "plagHaMincha": 1790950171056.5981,
+   "sofAchilasChametz": 1790926199903.5981,
+   "sofBiurChametz": 1790929751185.5981,
+   "sofShemaMGA": 1790920490702.3123,
+   "sofTefillaMGA": 1790924761232.3123,
+   "sofShemaMGA198": 1790919964020.3503,
+   "sofTefillaMGA198": 1790924410017.3503,
+   "minchaGedolaMGA": 1790935437557.3123,
+   "minchaKetanaMGA": 1790948249147.3123,
+   "plagHaMinchaMGA": 1790953587309.3123,
+   "chatzosLaila": 1790976521830.4087,
+   "beinHaShmashos": 1790955565607.3398,
+   "shaahZmanisGRA": 3551282,
+   "shaahZmanisMGA": 4270530,
+   "havdalah": 1790956775638.4685,
+   "tzeis": 1790956775638.4685,
+   "candleLighting": 1790953530170.0737
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Bechoros",
+   "daf": 14
+  },
+  "molad": null,
+  "levana": null,
+  "candle": 1790953530170.0737,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Shabbos Shemini Atzeres Jerusalem IL",
+  "y": 2026,
+  "m": 10,
+  "d": 3,
+  "loc": {
+   "name": "Jerusalem",
+   "lat": 31.7683,
+   "lng": 35.2137,
+   "tz": "Asia/Jerusalem",
+   "elevM": 750
+  },
+  "il": true,
+  "heb": {
+   "y": 5787,
+   "m": 7,
+   "d": 22
+  },
+  "wd": 6,
+  "parsha": {
+   "names": [
+    "Shemini Atzeres"
+   ],
+   "chag": true
+  },
+  "events": [
+   {
+    "name": "Shemini Atzeres",
+    "type": "yt"
+   }
+  ],
+  "zmanim": {
+   "netz": 1790998433490.7437,
+   "shkia": 1791040933671.229,
+   "alos161": 1790994118463.2507,
+   "alos18": 1790993578926.6787,
+   "alos198": 1790993066476.14,
+   "alos72": 1790994113490.7437,
+   "misheyakir115": 1790995420507.3606,
+   "misheyakir102": 1790995787771.9731,
+   "tzeis85": 1791043099618.4246,
+   "tzeis7083": 1791042699606.2905,
+   "tzeis161": 1791045248487.0144,
+   "tzeis72": 1791045253671.229,
+   "tzeis50": 1791043933671.229,
+   "tzeis42": 1791043453671.229,
+   "beinHaShmashosRT": 1791045183688.429,
+   "sofShemaGRA": 1791009058533.7437,
+   "sofTefillaGRA": 1791012600214.7437,
+   "chatzos": 1791019683576.7437,
+   "minchaGedola": 1791021454416.7437,
+   "minchaKetana": 1791032079459.7437,
+   "plagHaMincha": 1791036506560.7437,
+   "sofAchilasChametz": 1791012600214.7437,
+   "sofBiurChametz": 1791016141895.7437,
+   "sofShemaMGA": 1791006900968.2507,
+   "sofTefillaMGA": 1791011161803.2507,
+   "sofShemaMGA198": 1791006374845.14,
+   "sofTefillaMGA198": 1791010810968.14,
+   "minchaGedolaMGA": 1791021813890.2507,
+   "minchaKetanaMGA": 1791034596395.2507,
+   "plagHaMinchaMGA": 1791039922439.2507,
+   "chatzosLaila": 1791062903067.9062,
+   "beinHaShmashos": 1791041889606.2905,
+   "shaahZmanisGRA": 3541681,
+   "shaahZmanisMGA": 4260835,
+   "havdalah": 1791043099618.4246,
+   "tzeis": 1791043099618.4246,
+   "candleLighting": 1791039853671.229
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Bechoros",
+   "daf": 15
+  },
+  "molad": null,
+  "levana": null,
+  "candle": null,
+  "havdalah": 1791043099618.4246,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Pesach day 1 Jerusalem IL",
+  "y": 2026,
+  "m": 4,
+  "d": 2,
+  "loc": {
+   "name": "Jerusalem",
+   "lat": 31.7683,
+   "lng": 35.2137,
+   "tz": "Asia/Jerusalem",
+   "elevM": 750
+  },
+  "il": true,
+  "heb": {
+   "y": 5786,
+   "m": 1,
+   "d": 15
+  },
+  "wd": 4,
+  "parsha": {
+   "names": [
+    "Shabbos Chol HaMoed Pesach"
+   ],
+   "chag": true
+  },
+  "events": [
+   {
+    "name": "Pesach",
+    "type": "yt"
+   }
+  ],
+  "zmanim": {
+   "netz": 1775100429753.5518,
+   "shkia": 1775145546963.6858,
+   "alos161": 1775096031909.2615,
+   "alos18": 1775095471020.9148,
+   "alos198": 1775094935510.1152,
+   "alos72": 1775096109753.5518,
+   "misheyakir115": 1775097374373.937,
+   "misheyakir102": 1775097750440.6296,
+   "tzeis85": 1775147737686.6018,
+   "tzeis7083": 1775147330443.8777,
+   "tzeis161": 1775149948400.1362,
+   "tzeis72": 1775149866963.6858,
+   "tzeis50": 1775148546963.6858,
+   "tzeis42": 1775148066963.6858,
+   "beinHaShmashosRT": 1775150058684.0857,
+   "sofShemaGRA": 1775111709054.5518,
+   "sofTefillaGRA": 1775115468821.5518,
+   "chatzos": 1775122988355.5518,
+   "minchaGedola": 1775124868238.5518,
+   "minchaKetana": 1775136147539.5518,
+   "plagHaMincha": 1775140847248.5518,
+   "sofAchilasChametz": 1775115468821.5518,
+   "sofBiurChametz": 1775119228588.5518,
+   "sofShemaMGA": 1775109511029.2615,
+   "sofTefillaMGA": 1775114004069.2615,
+   "sofShemaMGA198": 1775108963213.1152,
+   "sofTefillaMGA198": 1775113639114.1152,
+   "minchaGedolaMGA": 1775125236669.2615,
+   "minchaKetanaMGA": 1775138715789.2615,
+   "plagHaMinchaMGA": 1775144332089.2615,
+   "chatzosLaila": 1775166150565.5237,
+   "beinHaShmashos": 1775146520443.8777,
+   "shaahZmanisGRA": 3759767,
+   "shaahZmanisMGA": 4493040,
+   "havdalah": 1775147737686.6018,
+   "tzeis": 1775147737686.6018,
+   "candleLighting": 1775144466963.6858
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Menachos",
+   "daf": 81
+  },
+  "molad": null,
+  "levana": null,
+  "candle": null,
+  "havdalah": 1775147737686.6018,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Summer Jerusalem IL",
+  "y": 2026,
+  "m": 6,
+  "d": 21,
+  "loc": {
+   "name": "Jerusalem",
+   "lat": 31.7683,
+   "lng": 35.2137,
+   "tz": "Asia/Jerusalem",
+   "elevM": 750
+  },
+  "il": true,
+  "heb": {
+   "y": 5786,
+   "m": 4,
+   "d": 6
+  },
+  "wd": 0,
+  "parsha": {
+   "names": [
+    "Balak"
+   ],
+   "chag": false
+  },
+  "events": [],
+  "zmanim": {
+   "netz": 1782009239721.6135,
+   "shkia": 1782060456319.8484,
+   "alos161": 1782003978108.1804,
+   "alos18": 1782003247019.7651,
+   "alos198": 1782002528730.5566,
+   "alos72": 1782004919721.6135,
+   "misheyakir115": 1782005658892.9844,
+   "misheyakir102": 1782006115564.8235,
+   "tzeis85": 1782062993311.8667,
+   "tzeis7083": 1782062511639.2942,
+   "tzeis161": 1782065718027.8953,
+   "tzeis72": 1782064776319.8484,
+   "tzeis50": 1782063456319.8484,
+   "tzeis42": 1782062976319.8484,
+   "beinHaShmashosRT": 1782065577978.6484,
+   "sofShemaGRA": 1782022043868.6135,
+   "sofTefillaGRA": 1782026311917.6135,
+   "chatzos": 1782034848015.6135,
+   "minchaGedola": 1782036982039.6135,
+   "minchaKetana": 1782049786186.6135,
+   "plagHaMincha": 1782055121247.6135,
+   "sofAchilasChametz": 1782026311917.6135,
+   "sofBiurChametz": 1782030579966.6135,
+   "sofShemaMGA": 1782019413087.1804,
+   "sofTefillaMGA": 1782024558080.1804,
+   "sofShemaMGA198": 1782018688407.5566,
+   "sofTefillaMGA198": 1782024074966.5566,
+   "minchaGedolaMGA": 1782037420562.1804,
+   "minchaKetanaMGA": 1782052855541.1804,
+   "plagHaMinchaMGA": 1782059286782.1804,
+   "chatzosLaila": 1782078054470.2778,
+   "beinHaShmashos": 1782061701639.2942,
+   "shaahZmanisGRA": 4268049,
+   "shaahZmanisMGA": 5144993,
+   "havdalah": 1782062993311.8667,
+   "tzeis": 1782062993311.8667,
+   "candleLighting": 1782059376319.8484
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Chullin",
+   "daf": 52
+  },
+  "molad": null,
+  "levana": {
+   "fromMs": 1781756756933.3333,
+   "toMs": 1782773277599.3333
+  },
+  "candle": null,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Winter Jerusalem IL",
+  "y": 2026,
+  "m": 1,
+  "d": 15,
+  "loc": {
+   "name": "Jerusalem",
+   "lat": 31.7683,
+   "lng": 35.2137,
+   "tz": "Asia/Jerusalem",
+   "elevM": 750
+  },
+  "il": true,
+  "heb": {
+   "y": 5786,
+   "m": 10,
+   "d": 26
+  },
+  "wd": 4,
+  "parsha": {
+   "names": [
+    "Va'eira"
+   ],
+   "chag": false
+  },
+  "events": [],
+  "zmanim": {
+   "netz": 1768451982500.754,
+   "shkia": 1768489059256.432,
+   "alos161": 1768447395535.7476,
+   "alos18": 1768446840859.109,
+   "alos198": 1768446317770.3213,
+   "alos72": 1768447662500.754,
+   "misheyakir115": 1768448750741.6255,
+   "misheyakir102": 1768449137308.5842,
+   "tzeis85": 1768491394455.9844,
+   "tzeis7083": 1768490968664.62,
+   "tzeis161": 1768493643089.292,
+   "tzeis72": 1768493379256.432,
+   "tzeis50": 1768492059256.432,
+   "tzeis42": 1768491579256.432,
+   "beinHaShmashosRT": 1768492766931.232,
+   "sofShemaGRA": 1768461251687.754,
+   "sofTefillaGRA": 1768464341416.754,
+   "chatzos": 1768470520874.754,
+   "minchaGedola": 1768472065738.754,
+   "minchaKetana": 1768481334925.754,
+   "plagHaMincha": 1768485197086.754,
+   "sofAchilasChametz": 1768464341416.754,
+   "sofBiurChametz": 1768467431145.754,
+   "sofShemaMGA": 1768458957421.7476,
+   "sofTefillaMGA": 1768462811383.7476,
+   "sofShemaMGA198": 1768458418411.3213,
+   "sofTefillaMGA198": 1768462451958.3213,
+   "minchaGedolaMGA": 1768472446288.7476,
+   "minchaKetanaMGA": 1768484008174.7476,
+   "plagHaMinchaMGA": 1768488825626.7476,
+   "chatzosLaila": 1768513715394.9526,
+   "beinHaShmashos": 1768490158664.62,
+   "shaahZmanisGRA": 3089729,
+   "shaahZmanisMGA": 3853962,
+   "havdalah": 1768491394455.9844,
+   "tzeis": 1768491394455.9844,
+   "candleLighting": 1768487979256.432
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Menachos",
+   "daf": 4
+  },
+  "molad": null,
+  "levana": null,
+  "candle": null,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Simchas Torah diaspora-schedule in Jerusalem tz",
+  "y": 2026,
+  "m": 10,
+  "d": 4,
+  "loc": {
+   "name": "Jerusalem",
+   "lat": 31.7683,
+   "lng": 35.2137,
+   "tz": "Asia/Jerusalem",
+   "elevM": 750
+  },
+  "il": false,
+  "heb": {
+   "y": 5787,
+   "m": 7,
+   "d": 23
+  },
+  "wd": 0,
+  "parsha": {
+   "names": [
+    "Bereshit"
+   ],
+   "chag": false
+  },
+  "events": [
+   {
+    "name": "Simchas Torah",
+    "type": "yt"
+   }
+  ],
+  "zmanim": {
+   "netz": 1791084872464.5837,
+   "shkia": 1791127257568.9656,
+   "alos161": 1791080557790.0735,
+   "alos18": 1791080018723.7344,
+   "alos198": 1791079506819.0269,
+   "alos72": 1791080552464.5837,
+   "misheyakir115": 1791081859110.8997,
+   "misheyakir102": 1791082226271.2869,
+   "tzeis85": 1791129424131.2988,
+   "tzeis7083": 1791129024112.6055,
+   "tzeis161": 1791131572172.3508,
+   "tzeis72": 1791131577568.9656,
+   "tzeis50": 1791130257568.9656,
+   "tzeis42": 1791129777568.9656,
+   "beinHaShmashosRT": 1791131496079.3655,
+   "sofShemaGRA": 1791095468740.5837,
+   "sofTefillaGRA": 1791099000832.5837,
+   "chatzos": 1791106065016.5837,
+   "minchaGedola": 1791107831062.5837,
+   "minchaKetana": 1791118427338.5837,
+   "plagHaMincha": 1791122842453.5837,
+   "sofAchilasChametz": 1791099000832.5837,
+   "sofBiurChametz": 1791102532924.5837,
+   "sofShemaMGA": 1791093311384.0735,
+   "sofTefillaMGA": 1791097562582.0735,
+   "sofShemaMGA198": 1791092785779.0269,
+   "sofTefillaMGA198": 1791097212099.0269,
+   "minchaGedolaMGA": 1791108190577.0735,
+   "minchaKetanaMGA": 1791120944171.0735,
+   "plagHaMinchaMGA": 1791126258168.0735,
+   "chatzosLaila": 1791149284638.7078,
+   "beinHaShmashos": 1791128214112.6055,
+   "shaahZmanisGRA": 3532092,
+   "shaahZmanisMGA": 4251198,
+   "havdalah": 1791129424131.2988,
+   "tzeis": 1791129424131.2988,
+   "candleLighting": 1791126177568.9656
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Bechoros",
+   "daf": 16
+  },
+  "molad": null,
+  "levana": null,
+  "candle": null,
+  "havdalah": 1791129424131.2988,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Reykjavik near-midnight sun",
+  "y": 2026,
+  "m": 6,
+  "d": 21,
+  "loc": {
+   "name": "Reykjavik",
+   "lat": 64.1466,
+   "lng": -21.9426,
+   "tz": "Atlantic/Reykjavik",
+   "elevM": 0
+  },
+  "il": false,
+  "heb": {
+   "y": 5786,
+   "m": 4,
+   "d": 6
+  },
+  "wd": 0,
+  "parsha": {
+   "names": [
+    "Chukas",
+    "Balak"
+   ],
+   "chag": false
+  },
+  "events": [],
+  "zmanim": {
+   "netz": 1782010496278.7969,
+   "shkia": 1782086645916.5806,
+   "alos161": null,
+   "alos18": null,
+   "alos198": null,
+   "alos72": 1782006176278.7969,
+   "misheyakir115": null,
+   "misheyakir102": null,
+   "tzeis85": null,
+   "tzeis7083": null,
+   "tzeis161": null,
+   "tzeis72": 1782090965916.5806,
+   "tzeis50": 1782089645916.5806,
+   "tzeis42": 1782089165916.5806,
+   "beinHaShmashosRT": 1782094260880.1807,
+   "sofShemaGRA": 1782029533687.7969,
+   "sofTefillaGRA": 1782035879490.7969,
+   "chatzos": 1782048571096.7969,
+   "minchaGedola": 1782051743997.7969,
+   "minchaKetana": 1782070781406.7969,
+   "plagHaMincha": 1782078713660.7969,
+   "sofAchilasChametz": 1782035879490.7969,
+   "sofBiurChametz": 1782042225293.7969,
+   "sofShemaMGA": null,
+   "sofTefillaMGA": null,
+   "sofShemaMGA198": null,
+   "sofTefillaMGA198": null,
+   "minchaGedolaMGA": null,
+   "minchaKetanaMGA": null,
+   "plagHaMinchaMGA": null,
+   "chatzosLaila": 1782091778106.68,
+   "beinHaShmashos": null,
+   "shaahZmanisGRA": 6345803,
+   "shaahZmanisMGA": null,
+   "havdalah": null,
+   "tzeis": null,
+   "candleLighting": 1782085565916.5806
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Chullin",
+   "daf": 52
+  },
+  "molad": null,
+  "levana": {
+   "fromMs": 1781756756933.3333,
+   "toMs": 1782773277599.3333
+  },
+  "candle": null,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Reykjavik short day",
+  "y": 2026,
+  "m": 12,
+  "d": 21,
+  "loc": {
+   "name": "Reykjavik",
+   "lat": 64.1466,
+   "lng": -21.9426,
+   "tz": "Atlantic/Reykjavik",
+   "elevM": 0
+  },
+  "il": false,
+  "heb": {
+   "y": 5787,
+   "m": 10,
+   "d": 11
+  },
+  "wd": 1,
+  "parsha": {
+   "names": [
+    "Vayechi"
+   ],
+   "chag": false
+  },
+  "events": [],
+  "zmanim": {
+   "netz": 1797852131417.7805,
+   "shkia": 1797866960230.9045,
+   "alos161": 1797840730658.4536,
+   "alos18": 1797839626154.3506,
+   "alos198": 1797838600678.694,
+   "alos72": 1797847811417.7805,
+   "misheyakir115": 1797843544454.5576,
+   "misheyakir102": 1797844390428.5732,
+   "tzeis85": 1797873548525.3333,
+   "tzeis7083": 1797872534795.2778,
+   "tzeis161": 1797878362521.715,
+   "tzeis72": 1797871280230.9045,
+   "tzeis50": 1797869960230.9045,
+   "tzeis42": 1797869480230.9045,
+   "beinHaShmashosRT": 1797868443111.7046,
+   "sofShemaGRA": 1797855838619.7805,
+   "sofTefillaGRA": 1797857074353.7805,
+   "chatzos": 1797859545821.7805,
+   "minchaGedola": 1797860163688.7805,
+   "minchaKetana": 1797863870890.7805,
+   "plagHaMincha": 1797865415557.7805,
+   "sofAchilasChametz": 1797857074353.7805,
+   "sofBiurChametz": 1797858310087.7805,
+   "sofShemaMGA": 1797850138622.4536,
+   "sofTefillaMGA": 1797853274610.4536,
+   "sofShemaMGA198": 1797849073648.694,
+   "sofTefillaMGA198": 1797852564638.694,
+   "minchaGedolaMGA": 1797861114580.4536,
+   "minchaKetanaMGA": 1797870522544.4536,
+   "plagHaMinchaMGA": 1797874442529.4536,
+   "chatzosLaila": 1797902762450.6172,
+   "beinHaShmashos": 1797871724795.2778,
+   "shaahZmanisGRA": 1235734,
+   "shaahZmanisMGA": 3135988,
+   "havdalah": 1797873548525.3333,
+   "tzeis": 1797873548525.3333,
+   "candleLighting": 1797865880230.9045
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Arachin",
+   "daf": 34
+  },
+  "molad": null,
+  "levana": {
+   "fromMs": 1797065416933.3333,
+   "toMs": 1798081937599.3333
+  },
+  "candle": null,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Sydney southern winter",
+  "y": 2026,
+  "m": 6,
+  "d": 21,
+  "loc": {
+   "name": "Sydney",
+   "lat": -33.8688,
+   "lng": 151.2093,
+   "tz": "Australia/Sydney",
+   "elevM": 40
+  },
+  "il": false,
+  "heb": {
+   "y": 5786,
+   "m": 4,
+   "d": 6
+  },
+  "wd": 0,
+  "parsha": {
+   "names": [
+    "Chukas",
+    "Balak"
+   ],
+   "chag": false
+  },
+  "events": [],
+  "zmanim": {
+   "netz": 1781989173235.369,
+   "shkia": 1782024821025.734,
+   "alos161": 1781984381894.6204,
+   "alos18": 1781983807103.3076,
+   "alos198": 1781983265722.1748,
+   "alos72": 1781984853235.369,
+   "misheyakir115": 1781985789737.437,
+   "misheyakir102": 1781986192335.1902,
+   "tzeis85": 1782027272184.1855,
+   "tzeis7083": 1782026827017.9631,
+   "tzeis161": 1782029612870.8784,
+   "tzeis72": 1782029141025.734,
+   "tzeis50": 1782027821025.734,
+   "tzeis42": 1782027341025.734,
+   "beinHaShmashosRT": 1782028385804.534,
+   "sofShemaGRA": 1781998085182.369,
+   "sofTefillaGRA": 1782001055831.369,
+   "chatzos": 1782006997129.369,
+   "minchaGedola": 1782008482453.369,
+   "minchaKetana": 1782017394400.369,
+   "plagHaMincha": 1782021107711.369,
+   "sofAchilasChametz": 1782001055831.369,
+   "sofBiurChametz": 1782004026480.369,
+   "sofShemaMGA": 1781995689638.6204,
+   "sofTefillaMGA": 1781999458886.6204,
+   "sofShemaMGA198": 1781995131571.1748,
+   "sofTefillaMGA198": 1781999086854.1748,
+   "minchaGedolaMGA": 1782008882006.6204,
+   "minchaKetanaMGA": 1782020189750.6204,
+   "plagHaMinchaMGA": 1782024901310.6204,
+   "chatzosLaila": 1782050204572.3184,
+   "beinHaShmashos": 1782026017017.9631,
+   "shaahZmanisGRA": 2970649,
+   "shaahZmanisMGA": 3769248,
+   "havdalah": 1782027272184.1855,
+   "tzeis": 1782027272184.1855,
+   "candleLighting": 1782023741025.734
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Chullin",
+   "daf": 52
+  },
+  "molad": null,
+  "levana": {
+   "fromMs": 1781756756933.3333,
+   "toMs": 1782773277599.3333
+  },
+  "candle": null,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Sydney southern summer",
+  "y": 2026,
+  "m": 12,
+  "d": 21,
+  "loc": {
+   "name": "Sydney",
+   "lat": -33.8688,
+   "lng": 151.2093,
+   "tz": "Australia/Sydney",
+   "elevM": 40
+  },
+  "il": false,
+  "heb": {
+   "y": 5787,
+   "m": 10,
+   "d": 11
+  },
+  "wd": 1,
+  "parsha": {
+   "names": [
+    "Vayechi"
+   ],
+   "chag": false
+  },
+  "events": [],
+  "zmanim": {
+   "netz": 1797792007850.1917,
+   "shkia": 1797843919294.7559,
+   "alos161": 1797786524164.4888,
+   "alos18": 1797785747837.279,
+   "alos198": 1797784979260.0386,
+   "alos72": 1797787687850.1917,
+   "misheyakir115": 1797788291848.6768,
+   "misheyakir102": 1797788768916.6309,
+   "tzeis85": 1797846547147.2893,
+   "tzeis7083": 1797846046342.0383,
+   "tzeis161": 1797849404883.1494,
+   "tzeis72": 1797848239294.7559,
+   "tzeis50": 1797846919294.7559,
+   "tzeis42": 1797846439294.7559,
+   "beinHaShmashosRT": 1797849110438.356,
+   "sofShemaGRA": 1797804985709.1917,
+   "sofTefillaGRA": 1797809311662.1917,
+   "chatzos": 1797817963568.1917,
+   "minchaGedola": 1797820126544.1917,
+   "minchaKetana": 1797833104403.1917,
+   "plagHaMincha": 1797838511844.1917,
+   "sofAchilasChametz": 1797809311662.1917,
+   "sofBiurChametz": 1797813637615.1917,
+   "sofShemaMGA": 1797802244341.4888,
+   "sofTefillaMGA": 1797807484400.4888,
+   "sofShemaMGA198": 1797801472117.0386,
+   "sofTefillaMGA198": 1797806969736.0386,
+   "minchaGedolaMGA": 1797820584547.4888,
+   "minchaKetanaMGA": 1797836304724.4888,
+   "plagHaMinchaMGA": 1797842854798.4888,
+   "chatzosLaila": 1797861176923.9478,
+   "beinHaShmashos": 1797845236342.0383,
+   "shaahZmanisGRA": 4325953,
+   "shaahZmanisMGA": 5240059,
+   "havdalah": 1797846547147.2893,
+   "tzeis": 1797846547147.2893,
+   "candleLighting": 1797842839294.7559
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Arachin",
+   "daf": 34
+  },
+  "molad": null,
+  "levana": {
+   "fromMs": 1797065416933.3333,
+   "toMs": 1798081937599.3333
+  },
+  "candle": null,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Tromso polar night netz null",
+  "y": 2026,
+  "m": 12,
+  "d": 21,
+  "loc": {
+   "name": "Tromso",
+   "lat": 69.6496,
+   "lng": 18.956,
+   "tz": "Europe/Oslo",
+   "elevM": 0
+  },
+  "il": false,
+  "heb": {
+   "y": 5787,
+   "m": 10,
+   "d": 11
+  },
+  "wd": 1,
+  "parsha": {
+   "names": [
+    "Vayechi"
+   ],
+   "chag": false
+  },
+  "events": [],
+  "zmanim": {
+   "netz": null,
+   "shkia": null,
+   "alos161": 1797832305870.109,
+   "alos18": 1797830894029.1262,
+   "alos198": 1797829597205.5159,
+   "alos72": null,
+   "misheyakir115": 1797836029770.846,
+   "misheyakir102": 1797837208432.5103,
+   "tzeis85": 1797860562694.2551,
+   "tzeis7083": 1797858977813.3125,
+   "tzeis161": 1797867148440.4602,
+   "tzeis72": null,
+   "tzeis50": null,
+   "tzeis42": null,
+   "beinHaShmashosRT": null,
+   "sofShemaGRA": null,
+   "sofTefillaGRA": null,
+   "chatzos": null,
+   "minchaGedola": null,
+   "minchaKetana": null,
+   "plagHaMincha": null,
+   "sofAchilasChametz": null,
+   "sofBiurChametz": null,
+   "sofShemaMGA": 1797841016511.109,
+   "sofTefillaMGA": 1797843920058.109,
+   "sofShemaMGA198": 1797839662214.5159,
+   "sofTefillaMGA198": 1797843017217.5159,
+   "minchaGedolaMGA": 1797851178925.109,
+   "minchaKetanaMGA": 1797859889566.109,
+   "plagHaMinchaMGA": 1797863519000.109,
+   "chatzosLaila": null,
+   "beinHaShmashos": 1797858167813.3125,
+   "shaahZmanisGRA": null,
+   "shaahZmanisMGA": 2903547,
+   "havdalah": 1797860562694.2551,
+   "tzeis": 1797860562694.2551,
+   "candleLighting": null
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Arachin",
+   "daf": 34
+  },
+  "molad": null,
+  "levana": {
+   "fromMs": 1797065416933.3333,
+   "toMs": 1798081937599.3333
+  },
+  "candle": null,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ },
+ {
+  "label": "Los Angeles Oct 2",
+  "y": 2026,
+  "m": 10,
+  "d": 2,
+  "loc": {
+   "name": "Los Angeles",
+   "lat": 34.0522,
+   "lng": -118.2437,
+   "tz": "America/Los_Angeles",
+   "elevM": 90
+  },
+  "il": false,
+  "heb": {
+   "y": 5787,
+   "m": 7,
+   "d": 21
+  },
+  "wd": 5,
+  "parsha": {
+   "names": [
+    "Shemini Atzeres"
+   ],
+   "chag": true
+  },
+  "events": [
+   {
+    "name": "Hoshana Rabba",
+    "type": "chm"
+   }
+  ],
+  "zmanim": {
+   "netz": 1790948883603.423,
+   "shkia": 1790991280456.7922,
+   "alos161": 1790944453827.5974,
+   "alos18": 1790943898848.749,
+   "alos198": 1790943371327.9746,
+   "alos72": 1790944563603.423,
+   "misheyakir115": 1790945791726.4724,
+   "misheyakir102": 1790946168826.1338,
+   "tzeis85": 1790993503212.1248,
+   "tzeis7083": 1790993092741.0225,
+   "tzeis161": 1790995709173.47,
+   "tzeis72": 1790995600456.7922,
+   "tzeis50": 1790994280456.7922,
+   "tzeis42": 1790993800456.7922,
+   "beinHaShmashosRT": 1790995520141.9922,
+   "sofShemaGRA": 1790959482816.423,
+   "sofTefillaGRA": 1790963015887.423,
+   "chatzos": 1790970082029.423,
+   "minchaGedola": 1790971848564.423,
+   "minchaKetana": 1790982447777.423,
+   "plagHaMincha": 1790986864116.423,
+   "sofAchilasChametz": 1790963015887.423,
+   "sofBiurChametz": 1790966548958.423,
+   "sofShemaMGA": 1790957267661.5974,
+   "sofTefillaMGA": 1790961538939.5974,
+   "sofShemaMGA198": 1790956725941.9746,
+   "sofTefillaMGA198": 1790961177479.9746,
+   "minchaGedolaMGA": 1790972217134.5974,
+   "minchaKetanaMGA": 1790985030968.5974,
+   "plagHaMinchaMGA": 1790990370065.5974,
+   "chatzosLaila": 1791013304082.7327,
+   "beinHaShmashos": 1790992282741.0225,
+   "shaahZmanisGRA": 3533071,
+   "shaahZmanisMGA": 4271278,
+   "havdalah": 1790993503212.1248,
+   "tzeis": 1790993503212.1248,
+   "candleLighting": 1790990200456.7922
+  },
+  "candleLightingMins": 18,
+  "omer": 0,
+  "daf": {
+   "name": "Bechoros",
+   "daf": 14
+  },
+  "molad": null,
+  "levana": null,
+  "candle": 1790990200456.7922,
+  "havdalah": null,
+  "fastBegin": null,
+  "fastEnd": null,
+  "chametz": null
+ }
+]
