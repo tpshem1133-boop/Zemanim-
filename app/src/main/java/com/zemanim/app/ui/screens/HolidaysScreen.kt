@@ -45,8 +45,8 @@ fun HolidaysScreen(settings: AppSettings, today: CivilDate) {
         }
         out
     }
-    val grouped = days.groupBy { abs ->
-        val h = ZemanimEngine.absToHeb(abs)
+    val grouped = days.groupBy { day ->
+        val h = ZemanimEngine.absToHeb(day.abs)
         Pair(h.y, h.m)
     }
 

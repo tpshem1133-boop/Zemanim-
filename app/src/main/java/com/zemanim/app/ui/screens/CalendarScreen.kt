@@ -164,7 +164,8 @@ fun CalendarScreen(
                                     abs = abs,
                                     isToday = abs == todayAbs,
                                     settings = settings,
-                                    onClick = { sheetAbs = abs }
+                                    onClick = { sheetAbs = abs },
+                                    modifier = Modifier.weight(1f)
                                 )
                             }
                         }
@@ -210,7 +211,8 @@ private fun DayCell(
     abs: Long,
     isToday: Boolean,
     settings: AppSettings,
-    onClick: () -> Unit
+    onClick: () -> Unit,
+    modifier: Modifier = Modifier
 ) {
     val heb = ZemanimEngine.absToHeb(abs)
     val evs = ZemanimEngine.eventsForAbs(abs, settings.il, true)
@@ -225,8 +227,7 @@ private fun DayCell(
         else -> MaterialTheme.colorScheme.onSurface
     }
     Box(
-        modifier = Modifier
-            .weight(1f)
+        modifier = modifier
             .padding(2.dp)
             .clip(RoundedCornerShape(12.dp))
             .background(bg)
