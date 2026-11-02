@@ -52,7 +52,7 @@ fun HolidaysScreen(settings: AppSettings, today: CivilDate) {
 
     LazyColumn(
         modifier = Modifier.padding(horizontal = 16.dp, vertical = 12.dp),
-        verticalArrangement = Arrangement.spacedBy(14.dp)
+        verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         grouped.forEach { (ym, monthDays) ->
             item {

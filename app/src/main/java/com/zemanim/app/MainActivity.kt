@@ -10,21 +10,23 @@ import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.viewModels
 import androidx.compose.animation.AnimatedContent
+import androidx.compose.animation.core.FastOutSlowInEasing
+import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
-import androidx.compose.animation.scaleIn
-import androidx.compose.animation.scaleOut
 import androidx.compose.animation.togetherWith
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
+import androidx.compose.material3.NavigationBarItemDefaults
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -98,10 +100,18 @@ class MainActivity : ComponentActivity() {
                 Scaffold(
                     topBar = {
                         TopAppBar(
-                            title = { Text("Zemanim") },
+                            title = {
+                                Text(
+                                    "Zemanim",
+                                    style = MaterialTheme.typography.titleLarge
+                                )
+                            },
                             actions = {
                                 TextButton(onClick = { tab = Tab.SETTINGS }) {
-                                    Text(settings.location.name)
+                                    Text(
+                                        settings.location.name,
+                                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                                    )
                                 }
                             },
                             colors = TopAppBarDefaults.topAppBarColors()
@@ -114,7 +124,14 @@ class MainActivity : ComponentActivity() {
                                     selected = tab == t,
                                     onClick = { tab = t },
                                     icon = { Icon(t.icon, contentDescription = t.label) },
-                                    label = { Text(t.label) }
+                                    label = { Text(t.label) },
+                                    colors = NavigationBarItemDefaults.colors(
+                                        selectedIconColor = MaterialTheme.colorScheme.primary,
+                                        selectedTextColor = MaterialTheme.colorScheme.primary,
+                                        indicatorColor = MaterialTheme.colorScheme.primaryContainer,
+                                        unselectedIconColor = MaterialTheme.colorScheme.onSurfaceVariant,
+                                        unselectedTextColor = MaterialTheme.colorScheme.onSurfaceVariant
+                                    )
                                 )
                             }
                         }
@@ -123,8 +140,17 @@ class MainActivity : ComponentActivity() {
                     AnimatedContent(
                         targetState = tab,
                         transitionSpec = {
-                            (fadeIn() + scaleIn(initialScale = 0.99f)) togetherWith
-                                (fadeOut() + scaleOut(targetScale = 0.99f))
+                            fadeIn(
+                                animationSpec = tween(
+                                    durationMillis = 200,
+                                    easing = FastOutSlowInEasing
+                                )
+                            ) togetherWith fadeOut(
+                                animationSpec = tween(
+                                    durationMillis = 200,
+                                    easing = FastOutSlowInEasing
+                                )
+                            )
                         },
                         label = "tab-switch",
                         modifier = Modifier.padding(innerPadding)

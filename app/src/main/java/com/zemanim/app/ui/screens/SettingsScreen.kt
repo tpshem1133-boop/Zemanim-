@@ -49,7 +49,7 @@ fun SettingsScreen(
         modifier = Modifier
             .verticalScroll(rememberScrollState())
             .padding(horizontal = 16.dp, vertical = 12.dp),
-        verticalArrangement = Arrangement.spacedBy(14.dp)
+        verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         // ---- Location ----
         SectionCard(title = "Location") {

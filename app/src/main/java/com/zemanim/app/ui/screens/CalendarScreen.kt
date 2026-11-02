@@ -1,10 +1,10 @@
 package com.zemanim.app.ui.screens
 
 import androidx.compose.animation.AnimatedContent
+import androidx.compose.animation.core.FastOutSlowInEasing
+import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
-import androidx.compose.animation.slideInHorizontally
-import androidx.compose.animation.slideOutHorizontally
 import androidx.compose.animation.togetherWith
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -50,7 +50,7 @@ import com.zemanim.app.ui.components.EventRow
 import com.zemanim.app.ui.components.eventColor
 
 /**
- * Calendar tab: Hebrew month grid with event dots, horizontal month
+ * Calendar tab: Hebrew month grid with event dots, calm crossfade month
  * transitions, and a detail bottom sheet for the tapped day.
  */
 @OptIn(ExperimentalMaterial3Api::class)
@@ -129,19 +129,21 @@ fun CalendarScreen(
         }
         Spacer(modifier = Modifier.height(6.dp))
 
-        // ---- Month grid (slide direction follows navigation) ----
+        // ---- Month grid (calm crossfade between months) ----
         AnimatedContent(
             targetState = Pair(hebY, hebM),
             transitionSpec = {
-                val forward = targetState.first > initialState.first ||
-                    (targetState.first == initialState.first && targetState.second > initialState.second)
-                if (forward) {
-                    (slideInHorizontally { it } + fadeIn()) togetherWith
-                        (slideOutHorizontally { -it } + fadeOut())
-                } else {
-                    (slideInHorizontally { -it } + fadeIn()) togetherWith
-                        (slideOutHorizontally { it } + fadeOut())
-                }
+                fadeIn(
+                    animationSpec = tween(
+                        durationMillis = 200,
+                        easing = FastOutSlowInEasing
+                    )
+                ) togetherWith fadeOut(
+                    animationSpec = tween(
+                        durationMillis = 200,
+                        easing = FastOutSlowInEasing
+                    )
+                )
             },
             label = "calendar-month"
         ) { (y, m) ->

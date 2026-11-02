@@ -2,14 +2,13 @@ package com.zemanim.app.ui.screens
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.animation.core.Spring
+import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.animateFloatAsState
-import androidx.compose.animation.core.spring
+import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
-import androidx.compose.animation.scaleIn
-import androidx.compose.animation.scaleOut
 import androidx.compose.animation.togetherWith
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
@@ -22,6 +21,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -77,8 +77,17 @@ fun TodayScreen(
     AnimatedContent(
         targetState = selectedDate,
         transitionSpec = {
-            (fadeIn() + scaleIn(initialScale = 0.985f)) togetherWith
-                (fadeOut() + scaleOut(targetScale = 0.985f))
+            fadeIn(
+                animationSpec = tween(
+                    durationMillis = 200,
+                    easing = FastOutSlowInEasing
+                )
+            ) togetherWith fadeOut(
+                animationSpec = tween(
+                    durationMillis = 200,
+                    easing = FastOutSlowInEasing
+                )
+            )
         },
         label = "today-date"
     ) { _ ->
@@ -86,7 +95,7 @@ fun TodayScreen(
             modifier = Modifier
                 .verticalScroll(rememberScrollState())
                 .padding(horizontal = 16.dp, vertical = 12.dp),
-            verticalArrangement = Arrangement.spacedBy(14.dp)
+            verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
             // ---- Header ----
             Row(
@@ -224,44 +233,50 @@ private fun NowHero(dayInfo: DayInfo, settings: AppSettings, nowMs: Long) {
     }
     val progress by animateFloatAsState(
         targetValue = progressTarget,
-        animationSpec = spring(stiffness = Spring.StiffnessLow),
+        animationSpec = tween(
+            durationMillis = 250,
+            easing = FastOutSlowInEasing
+        ),
         label = "now-progress"
     )
-    val primary = MaterialTheme.colorScheme.primary
+    val ring = MaterialTheme.colorScheme.tertiary
     val track = MaterialTheme.colorScheme.surfaceVariant
 
     Card(
         modifier = Modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(20.dp),
         colors = CardDefaults.cardColors(
-            containerColor = MaterialTheme.colorScheme.primary
-        )
+            containerColor = MaterialTheme.colorScheme.surface
+        ),
+        border = BorderStroke(1.dp, MaterialTheme.colorScheme.outline)
     ) {
         Row(
-            modifier = Modifier.padding(20.dp),
+            modifier = Modifier.padding(16.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
             Column(modifier = Modifier.weight(1f)) {
                 Text(
                     text = "Now",
                     style = MaterialTheme.typography.labelMedium,
-                    color = MaterialTheme.colorScheme.onPrimary.copy(alpha = 0.75f)
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
                 Text(
                     text = prev?.name ?: "Before first zman",
-                    style = MaterialTheme.typography.displayMedium,
-                    color = MaterialTheme.colorScheme.onPrimary
+                    style = MaterialTheme.typography.titleMedium,
+                    color = MaterialTheme.colorScheme.onSurface
                 )
                 if (next != null) {
                     Text(
                         text = "Next: ${next.name} at ${Format.fmtTime(next.ms, settings.location.tz, settings.hour12)}",
-                        style = MaterialTheme.typography.bodyMedium,
-                        color = MaterialTheme.colorScheme.onPrimary
+                        style = MaterialTheme.typography.bodyLarge,
+                        fontWeight = FontWeight.SemiBold,
+                        color = MaterialTheme.colorScheme.onSurface
                     )
                 } else {
                     Text(
                         text = "Day complete",
                         style = MaterialTheme.typography.bodyMedium,
-                        color = MaterialTheme.colorScheme.onPrimary
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
                 }
             }
@@ -279,7 +294,7 @@ private fun NowHero(dayInfo: DayInfo, settings: AppSettings, nowMs: Long) {
                         style = Stroke(width = 9f, cap = StrokeCap.Round)
                     )
                     drawArc(
-                        color = primary,
+                        color = ring,
                         startAngle = -90f,
                         sweepAngle = 360f * progress,
                         useCenter = false,
@@ -290,7 +305,7 @@ private fun NowHero(dayInfo: DayInfo, settings: AppSettings, nowMs: Long) {
                 Text(
                     text = if (next != null) Format.fmtDur(next.ms!! - nowMs) else "Done",
                     style = MaterialTheme.typography.titleMedium,
-                    color = MaterialTheme.colorScheme.onPrimary
+                    color = MaterialTheme.colorScheme.primary
                 )
             }
         }
@@ -367,7 +382,21 @@ private fun ZmanimList(dayInfo: DayInfo, settings: AppSettings, nowMs: Long) {
                 expanded = isOpen,
                 onToggle = { expanded = expanded + (group to !isOpen) }
             )
-            AnimatedVisibility(visible = isOpen) {
+            AnimatedVisibility(
+                visible = isOpen,
+                enter = fadeIn(
+                    animationSpec = tween(
+                        durationMillis = 200,
+                        easing = FastOutSlowInEasing
+                    )
+                ),
+                exit = fadeOut(
+                    animationSpec = tween(
+                        durationMillis = 200,
+                        easing = FastOutSlowInEasing
+                    )
+                )
+            ) {
                 Column {
                     groupRows.forEach { row ->
                         ZmanRowItem(

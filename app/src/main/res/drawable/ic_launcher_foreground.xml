@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Gold sun disc, centred at (54, 45), radius 13 -->
+    <path
+        android:fillColor="#C9A227"
+        android:pathData="M54,32 a13,13 0 1,1 0,26 a13,13 0 1,1 0,-26" />
+    <!-- Five short rays above the sun, rotated around its centre -->
+    <group android:pivotX="54" android:pivotY="45" android:rotation="-56">
+        <path
+            android:fillColor="#C9A227"
+            android:pathData="M53,23 h2 v6 h-2 z" />
+    </group>
+    <group android:pivotX="54" android:pivotY="45" android:rotation="-28">
+        <path
+            android:fillColor="#C9A227"
+            android:pathData="M53,23 h2 v6 h-2 z" />
+    </group>
+    <group android:pivotX="54" android:pivotY="45" android:rotation="0">
+        <path
+            android:fillColor="#C9A227"
+            android:pathData="M53,23 h2 v6 h-2 z" />
+    </group>
+    <group android:pivotX="54" android:pivotY="45" android:rotation="28">
+        <path
+            android:fillColor="#C9A227"
+            android:pathData="M53,23 h2 v6 h-2 z" />
+    </group>
+    <group android:pivotX="54" android:pivotY="45" android:rotation="56">
+        <path
+            android:fillColor="#C9A227"
+            android:pathData="M53,23 h2 v6 h-2 z" />
+    </group>
+    <!-- Horizon line -->
+    <path
+        android:fillColor="#F7F4EC"
+        android:pathData="M30,64 h48 v3 h-48 z" />
+</vector>
