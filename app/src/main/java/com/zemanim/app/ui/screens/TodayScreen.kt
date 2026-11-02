@@ -257,11 +257,6 @@ private fun NowHero(dayInfo: DayInfo, settings: AppSettings, nowMs: Long) {
                         style = MaterialTheme.typography.bodyMedium,
                         color = MaterialTheme.colorScheme.onPrimary
                     )
-                    Text(
-                        text = "in ${Format.fmtDur(next.ms!! - nowMs)}",
-                        style = MaterialTheme.typography.bodySmall,
-                        color = MaterialTheme.colorScheme.onPrimary.copy(alpha = 0.8f)
-                    )
                 } else {
                     Text(
                         text = "Day complete",
@@ -293,7 +288,7 @@ private fun NowHero(dayInfo: DayInfo, settings: AppSettings, nowMs: Long) {
                     )
                 }
                 Text(
-                    text = "${(progress * 100).toInt()}%",
+                    text = if (next != null) Format.fmtDur(next.ms!! - nowMs) else "Done",
                     style = MaterialTheme.typography.titleMedium,
                     color = MaterialTheme.colorScheme.onPrimary
                 )
