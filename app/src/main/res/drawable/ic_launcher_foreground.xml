@@ -4,38 +4,31 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- Gold sun disc, centred at (54, 45), radius 13 -->
+    <!-- Radiant sun disc, amber -> gold gradient, centred (54,54) r15 -->
+    <path android:pathData="M54,39 a15,15 0 1,1 0,30 a15,15 0 1,1 0,-30">
+        <gradient
+            android:type="linear"
+            android:startX="54"
+            android:startY="39"
+            android:endX="54"
+            android:endY="69">
+            <item android:offset="0" android:color="#FBBF24" />
+            <item android:offset="1" android:color="#F59E0B" />
+        </gradient>
+    </path>
+    <!-- Orbit ring: ellipse rx28 ry11, tilted -20 degrees, electric cyan -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="-20">
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#22D3EE"
+            android:strokeWidth="2.5"
+            android:pathData="M26,54 a28,11 0 1,0 56,0 a28,11 0 1,0 -56,0" />
+    </group>
+    <!-- Satellite dot on the ring, upper right -->
     <path
-        android:fillColor="#C9A227"
-        android:pathData="M54,32 a13,13 0 1,1 0,26 a13,13 0 1,1 0,-26" />
-    <!-- Five short rays above the sun, rotated around its centre -->
-    <group android:pivotX="54" android:pivotY="45" android:rotation="-56">
-        <path
-            android:fillColor="#C9A227"
-            android:pathData="M53,23 h2 v6 h-2 z" />
-    </group>
-    <group android:pivotX="54" android:pivotY="45" android:rotation="-28">
-        <path
-            android:fillColor="#C9A227"
-            android:pathData="M53,23 h2 v6 h-2 z" />
-    </group>
-    <group android:pivotX="54" android:pivotY="45" android:rotation="0">
-        <path
-            android:fillColor="#C9A227"
-            android:pathData="M53,23 h2 v6 h-2 z" />
-    </group>
-    <group android:pivotX="54" android:pivotY="45" android:rotation="28">
-        <path
-            android:fillColor="#C9A227"
-            android:pathData="M53,23 h2 v6 h-2 z" />
-    </group>
-    <group android:pivotX="54" android:pivotY="45" android:rotation="56">
-        <path
-            android:fillColor="#C9A227"
-            android:pathData="M53,23 h2 v6 h-2 z" />
-    </group>
-    <!-- Horizon line -->
-    <path
-        android:fillColor="#F7F4EC"
-        android:pathData="M30,64 h48 v3 h-48 z" />
+        android:fillColor="#FFFFFF"
+        android:pathData="M70,36.5 a3.5,3.5 0 1,1 0,7 a3.5,3.5 0 1,1 0,-7" />
 </vector>

@@ -135,12 +135,12 @@ fun CalendarScreen(
             transitionSpec = {
                 fadeIn(
                     animationSpec = tween(
-                        durationMillis = 200,
+                        durationMillis = 250,
                         easing = FastOutSlowInEasing
                     )
                 ) togetherWith fadeOut(
                     animationSpec = tween(
-                        durationMillis = 200,
+                        durationMillis = 250,
                         easing = FastOutSlowInEasing
                     )
                 )

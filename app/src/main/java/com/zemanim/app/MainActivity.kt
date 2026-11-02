@@ -14,6 +14,8 @@ import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
+import androidx.compose.animation.scaleIn
+import androidx.compose.animation.scaleOut
 import androidx.compose.animation.togetherWith
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Icon
@@ -118,7 +120,9 @@ class MainActivity : ComponentActivity() {
                         )
                     },
                     bottomBar = {
-                        NavigationBar {
+                        NavigationBar(
+                            containerColor = MaterialTheme.colorScheme.surfaceContainer
+                        ) {
                             Tab.values().forEach { t ->
                                 NavigationBarItem(
                                     selected = tab == t,
@@ -140,17 +144,29 @@ class MainActivity : ComponentActivity() {
                     AnimatedContent(
                         targetState = tab,
                         transitionSpec = {
-                            fadeIn(
+                            (fadeIn(
                                 animationSpec = tween(
-                                    durationMillis = 200,
+                                    durationMillis = 250,
                                     easing = FastOutSlowInEasing
                                 )
-                            ) togetherWith fadeOut(
+                            ) + scaleIn(
+                                initialScale = 0.98f,
                                 animationSpec = tween(
-                                    durationMillis = 200,
+                                    durationMillis = 250,
                                     easing = FastOutSlowInEasing
                                 )
-                            )
+                            )) togetherWith (fadeOut(
+                                animationSpec = tween(
+                                    durationMillis = 250,
+                                    easing = FastOutSlowInEasing
+                                )
+                            ) + scaleOut(
+                                targetScale = 0.98f,
+                                animationSpec = tween(
+                                    durationMillis = 250,
+                                    easing = FastOutSlowInEasing
+                                )
+                            ))
                         },
                         label = "tab-switch",
                         modifier = Modifier.padding(innerPadding)

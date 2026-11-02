@@ -1,6 +1,8 @@
 package com.zemanim.app.ui.components
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -21,6 +23,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -29,16 +32,16 @@ import com.zemanim.app.engine.Format
 import com.zemanim.app.engine.HolidayEvent
 import com.zemanim.app.ui.ZmanRow
 
-/** Event dot color by type (readable on both light and dark cards). */
+/** Event dot color by type (bright enough to read on dark glass and white). */
 fun eventColor(type: String): Color = when (type) {
-    "yt" -> Color(0xFF1E3A8A)
-    "fast", "fast-yt" -> Color(0xFFB91C1C)
-    "rc" -> Color(0xFF15803D)
-    "minor" -> Color(0xFF7C5C10)
-    "chm" -> Color(0xFF3B6EA5)
-    "modern" -> Color(0xFF0F766E)
-    "mevarchim", "special-shabbos" -> Color(0xFF6D28D9)
-    else -> Color(0xFFB45309)
+    "yt" -> Color(0xFF38BDF8)
+    "fast", "fast-yt" -> Color(0xFFF87171)
+    "rc" -> Color(0xFF34D399)
+    "minor" -> Color(0xFFFBBF24)
+    "chm" -> Color(0xFFA78BFA)
+    "modern" -> Color(0xFF2DD4BF)
+    "mevarchim", "special-shabbos" -> Color(0xFFC084FC)
+    else -> Color(0xFFF59E0B)
 }
 
 /** Card with an uppercase section title. */
@@ -52,7 +55,8 @@ fun SectionCard(
         modifier = modifier.fillMaxWidth(),
         shape = RoundedCornerShape(20.dp),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
-        elevation = CardDefaults.cardElevation(defaultElevation = 1.dp)
+        border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
+        elevation = CardDefaults.cardElevation(defaultElevation = 0.dp)
     ) {
         Column(modifier = Modifier.padding(16.dp)) {
             if (title.isNotEmpty()) {
@@ -66,6 +70,29 @@ fun SectionCard(
             content()
         }
     }
+}
+
+/** Dark-glass card: subtle vertical gradient + hairline outline. */
+@Composable
+fun GlassCard(
+    modifier: Modifier = Modifier,
+    content: @Composable () -> Unit
+) {
+    Box(
+        modifier = modifier
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(20.dp))
+            .background(
+                Brush.verticalGradient(
+                    listOf(
+                        MaterialTheme.colorScheme.surface,
+                        MaterialTheme.colorScheme.surfaceVariant
+                    )
+                )
+            )
+            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(20.dp))
+            .padding(16.dp)
+    ) { content() }
 }
 
 /** One event row: colored dot + name + optional type description. */
@@ -159,8 +186,9 @@ fun ZmanRowItem(
 fun InfoChip(text: String) {
     Surface(
         shape = RoundedCornerShape(999.dp),
-        color = MaterialTheme.colorScheme.surface,
-        shadowElevation = 1.dp
+        color = MaterialTheme.colorScheme.surfaceVariant,
+        border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
+        shadowElevation = 0.dp
     ) {
         Text(
             text = text,

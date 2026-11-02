@@ -6,11 +6,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.BorderStroke
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.Card
-import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -24,6 +20,7 @@ import com.zemanim.app.engine.Format
 import com.zemanim.app.engine.ZemanimEngine
 import com.zemanim.app.engine.ZmanimOpts
 import com.zemanim.app.ui.components.EventRow
+import com.zemanim.app.ui.components.GlassCard
 import com.zemanim.app.ui.components.SectionCard
 import com.zemanim.app.ui.components.ZmanRowItem
 import com.zemanim.app.ui.buildZmanRows
@@ -62,19 +59,12 @@ fun ShabbosScreen(settings: AppSettings, today: CivilDate) {
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         // ---- Hero ----
-        Card(
-            modifier = Modifier.fillMaxWidth(),
-            shape = RoundedCornerShape(20.dp),
-            colors = CardDefaults.cardColors(
-                containerColor = MaterialTheme.colorScheme.surface
-            ),
-            border = BorderStroke(1.dp, MaterialTheme.colorScheme.outline)
-        ) {
-            Column(modifier = Modifier.padding(16.dp)) {
+        GlassCard {
+            Column {
                 Text(
                     text = "Shabbos",
                     style = MaterialTheme.typography.labelMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                    color = MaterialTheme.colorScheme.primary
                 )
                 val label = parshaLabel(shabInfo.parsha.names, shabInfo.parsha.chag)
                 Text(

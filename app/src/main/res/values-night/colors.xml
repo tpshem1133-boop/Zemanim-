@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Launch window background in dark mode: deep space. -->
+    <color name="zemanim_paper">#FF070B14</color>
+</resources>

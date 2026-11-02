@@ -4,42 +4,60 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- Deep navy background, full bleed -->
+    <!-- Deep-space vertical gradient, full bleed -->
+    <path android:pathData="M0,0 h108 v108 h-108 z">
+        <gradient
+            android:type="linear"
+            android:startX="54"
+            android:startY="0"
+            android:endX="54"
+            android:endY="108">
+            <item android:offset="0" android:color="#070B14" />
+            <item android:offset="1" android:color="#131B31" />
+        </gradient>
+    </path>
+    <!-- Faint stars -->
     <path
-        android:fillColor="#1E2A4A"
-        android:pathData="M0,0 h108 v108 h-108 z" />
-    <!-- Gold sun disc, centred at (54, 45), radius 13 -->
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.5"
+        android:pathData="M18,16.8 a1.2,1.2 0 1,1 0,2.4 a1.2,1.2 0 1,1 0,-2.4" />
     <path
-        android:fillColor="#C9A227"
-        android:pathData="M54,32 a13,13 0 1,1 0,26 a13,13 0 1,1 0,-26" />
-    <!-- Five short rays above the sun, rotated around its centre -->
-    <group android:pivotX="54" android:pivotY="45" android:rotation="-56">
-        <path
-            android:fillColor="#C9A227"
-            android:pathData="M53,23 h2 v6 h-2 z" />
-    </group>
-    <group android:pivotX="54" android:pivotY="45" android:rotation="-28">
-        <path
-            android:fillColor="#C9A227"
-            android:pathData="M53,23 h2 v6 h-2 z" />
-    </group>
-    <group android:pivotX="54" android:pivotY="45" android:rotation="0">
-        <path
-            android:fillColor="#C9A227"
-            android:pathData="M53,23 h2 v6 h-2 z" />
-    </group>
-    <group android:pivotX="54" android:pivotY="45" android:rotation="28">
-        <path
-            android:fillColor="#C9A227"
-            android:pathData="M53,23 h2 v6 h-2 z" />
-    </group>
-    <group android:pivotX="54" android:pivotY="45" android:rotation="56">
-        <path
-            android:fillColor="#C9A227"
-            android:pathData="M53,23 h2 v6 h-2 z" />
-    </group>
-    <!-- Horizon line -->
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.35"
+        android:pathData="M90,20.8 a1.2,1.2 0 1,1 0,2.4 a1.2,1.2 0 1,1 0,-2.4" />
     <path
-        android:fillColor="#F7F4EC"
-        android:pathData="M30,64 h48 v3 h-48 z" />
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.45"
+        android:pathData="M14,86.8 a1.2,1.2 0 1,1 0,2.4 a1.2,1.2 0 1,1 0,-2.4" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.3"
+        android:pathData="M92,88.8 a1.5,1.5 0 1,1 0,3 a1.5,1.5 0 1,1 0,-3" />
+    <!-- Radiant sun disc, amber -> gold gradient, centred (54,54) r15 -->
+    <path android:pathData="M54,39 a15,15 0 1,1 0,30 a15,15 0 1,1 0,-30">
+        <gradient
+            android:type="linear"
+            android:startX="54"
+            android:startY="39"
+            android:endX="54"
+            android:endY="69">
+            <item android:offset="0" android:color="#FBBF24" />
+            <item android:offset="1" android:color="#F59E0B" />
+        </gradient>
+    </path>
+    <!-- Orbit ring: ellipse rx28 ry11, tilted -20 degrees, electric cyan -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="-20">
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#22D3EE"
+            android:strokeWidth="2.5"
+            android:pathData="M26,54 a28,11 0 1,0 56,0 a28,11 0 1,0 -56,0" />
+    </group>
+    <!-- Satellite dot on the ring, upper right -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M70,36.5 a3.5,3.5 0 1,1 0,7 a3.5,3.5 0 1,1 0,-7" />
 </vector>

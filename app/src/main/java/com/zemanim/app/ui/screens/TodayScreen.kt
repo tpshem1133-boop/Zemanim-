@@ -8,7 +8,7 @@ import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.togetherWith
-import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.background
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
@@ -20,8 +20,9 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -37,6 +38,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.text.font.FontWeight
@@ -49,6 +52,7 @@ import com.zemanim.app.engine.Format
 import com.zemanim.app.ui.ZmanRow
 import com.zemanim.app.ui.buildZmanRows
 import com.zemanim.app.ui.components.EventRow
+import com.zemanim.app.ui.components.GlassCard
 import com.zemanim.app.ui.components.InfoChip
 import com.zemanim.app.ui.components.SectionCard
 import com.zemanim.app.ui.components.ZmanGroupHeader
@@ -79,12 +83,12 @@ fun TodayScreen(
         transitionSpec = {
             fadeIn(
                 animationSpec = tween(
-                    durationMillis = 200,
+                    durationMillis = 250,
                     easing = FastOutSlowInEasing
                 )
             ) togetherWith fadeOut(
                 animationSpec = tween(
-                    durationMillis = 200,
+                    durationMillis = 250,
                     easing = FastOutSlowInEasing
                 )
             )
@@ -239,27 +243,27 @@ private fun NowHero(dayInfo: DayInfo, settings: AppSettings, nowMs: Long) {
         ),
         label = "now-progress"
     )
-    val ring = MaterialTheme.colorScheme.tertiary
     val track = MaterialTheme.colorScheme.surfaceVariant
 
-    Card(
-        modifier = Modifier.fillMaxWidth(),
-        shape = RoundedCornerShape(20.dp),
-        colors = CardDefaults.cardColors(
-            containerColor = MaterialTheme.colorScheme.surface
-        ),
-        border = BorderStroke(1.dp, MaterialTheme.colorScheme.outline)
-    ) {
+    GlassCard {
         Row(
-            modifier = Modifier.padding(16.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
             Column(modifier = Modifier.weight(1f)) {
-                Text(
-                    text = "Now",
-                    style = MaterialTheme.typography.labelMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                )
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Box(
+                        modifier = Modifier
+                            .size(6.dp)
+                            .clip(CircleShape)
+                            .background(MaterialTheme.colorScheme.primary)
+                    )
+                    Spacer(modifier = Modifier.width(6.dp))
+                    Text(
+                        text = "Now",
+                        style = MaterialTheme.typography.labelMedium,
+                        color = MaterialTheme.colorScheme.primary
+                    )
+                }
                 Text(
                     text = prev?.name ?: "Before first zman",
                     style = MaterialTheme.typography.titleMedium,
@@ -285,6 +289,14 @@ private fun NowHero(dayInfo: DayInfo, settings: AppSettings, nowMs: Long) {
                 contentAlignment = Alignment.Center
             ) {
                 Canvas(modifier = Modifier.size(92.dp)) {
+                    val ringBrush = Brush.sweepGradient(
+                        center = center,
+                        colors = listOf(
+                            Color(0xFF22D3EE),
+                            Color(0xFF8B5CF6),
+                            Color(0xFF22D3EE)
+                        )
+                    )
                     drawArc(
                         color = track,
                         startAngle = -90f,
@@ -293,8 +305,18 @@ private fun NowHero(dayInfo: DayInfo, settings: AppSettings, nowMs: Long) {
                         size = Size(size.width, size.height),
                         style = Stroke(width = 9f, cap = StrokeCap.Round)
                     )
+                    // Soft glow under the progress arc
                     drawArc(
-                        color = ring,
+                        brush = ringBrush,
+                        startAngle = -90f,
+                        sweepAngle = 360f * progress,
+                        useCenter = false,
+                        size = Size(size.width, size.height),
+                        alpha = 0.28f,
+                        style = Stroke(width = 16f, cap = StrokeCap.Round)
+                    )
+                    drawArc(
+                        brush = ringBrush,
                         startAngle = -90f,
                         sweepAngle = 360f * progress,
                         useCenter = false,
@@ -304,8 +326,8 @@ private fun NowHero(dayInfo: DayInfo, settings: AppSettings, nowMs: Long) {
                 }
                 Text(
                     text = if (next != null) Format.fmtDur(next.ms!! - nowMs) else "Done",
-                    style = MaterialTheme.typography.titleMedium,
-                    color = MaterialTheme.colorScheme.primary
+                    style = MaterialTheme.typography.titleLarge,
+                    color = MaterialTheme.colorScheme.tertiary
                 )
             }
         }
@@ -386,13 +408,13 @@ private fun ZmanimList(dayInfo: DayInfo, settings: AppSettings, nowMs: Long) {
                 visible = isOpen,
                 enter = fadeIn(
                     animationSpec = tween(
-                        durationMillis = 200,
+                        durationMillis = 250,
                         easing = FastOutSlowInEasing
                     )
                 ),
                 exit = fadeOut(
                     animationSpec = tween(
-                        durationMillis = 200,
+                        durationMillis = 250,
                         easing = FastOutSlowInEasing
                     )
                 )
